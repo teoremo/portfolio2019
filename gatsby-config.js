@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Teoremo | Matteo Remondini`,
-    description: `Porfolio and personal website. And much love`,
+    title: `Matteo's portfolio`,
+    description: `Matteo Remondini's porfolio. And much love`,
     author: `Matteo Remondini`,
   },
   plugins: [

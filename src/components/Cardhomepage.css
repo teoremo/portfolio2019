@@ -1,0 +1,14 @@
+.Cardhomepage {
+    width:670px;
+    position: relative;
+    margin:auto;
+    border: 1px solid;
+    margin:20px auto 20px auto;
+}
+
+.Cardhomepage img {
+    width:55px;
+    height:55px;
+    margin-left:auto;
+}
+

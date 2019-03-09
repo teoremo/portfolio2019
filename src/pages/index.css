@@ -1,0 +1,109 @@
+@font-face {
+    font-family: Helvetica CE; 
+    src: url('/fonts/Helvetica CE Regular.ttf') format('ttf');
+    src: url('/fonts/Helvetica CE Bold.ttf') format('ttf');
+    src: url('/fonts/helvetica_ce_regular.woff') format('ttf');
+    src: url('/fonts/helvetica_ce_regular.woff2') format('ttf');
+    src: url('/fonts/helvetica_ce_bold.woff') format('ttf');
+    src: url('/fonts/helvetica_ce_bold.woff2') format('ttf');
+}
+
+@import url('https://fonts.googleapis.com/css?family=Rosarivo');
+
+
+body {
+    font-family: 'Rosarivo', serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    font-size: 20px;
+    line-height: 1.2;
+    margin:0;
+    padding:0;
+}
+
+a {
+    font-weight: 600;
+    text-decoration: underline;
+  }
+
+h1 {
+    font-family: Helvetica CE, Helvetica;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: Helvetica CE, Helvetica;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    font-size: 30px;
+    line-height: 1;
+
+}
+
+h3 {
+    font-family: Helvetica CE, Helvetica;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    font-size: 26px;
+    line-height: 1;
+
+}
+
+.Hero {
+    padding:0;
+    height:100vh;    
+    vertical-align: middle;
+    position:relative;
+}
+
+.HeroGroup {
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    margin:0;
+    width: 672px;
+    position:absolute;
+}
+
+
+
+.Hero-h1 {
+    font-size: 30px;
+    line-height: 1;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+.Hero-p{
+    padding-top:30px;
+    padding-bottom:30px;
+    max-width:492px;
+    margin:auto;
+    
+}
+
+.Hero-h2{
+    max-width:400px;
+    margin-left:auto;
+    text-align:right;
+   
+}
+
+
+
+.arrow-down{
+    left:50%;
+    padding-top: 50px;
+    position:absolute;
+}
+
+.page{
+    border:2px solid;
+    max-width: 1134px;
+    margin:auto auto auto auto;
+    position:relative;
+}
