@@ -9,6 +9,7 @@ import Cardhomepage from "../components/Cardhomepage"
 const IndexPage = () => (
   <Layout>
     <SEO title="Tile of this page" keywords={[`gatsby`, `application`, `react`]} />
+
     <div className="Hero">
       <div className="HeroGroup">
         <h1 className="Hero-h1">Matteo Remondini <br/> Service designer</h1>
@@ -24,21 +25,43 @@ const IndexPage = () => (
 
      <div className="page">
      
+     
      <Cardhomepage
       year="2017"
       location="London, UK"
+      cardlogo={require('../images/shelterlogo.png')}
       title="Shelter"
       categories="Service strategy + projects"
       description="Helping Shelter become a Human Centred organisation, focusing on the housing advice services given to millions of people."
-      cardlogo={require('../images/shelterlogo.png')}/>
+      arrow={require('../images/arrow-down.svg')}/>
 
-     <Cardhomepage
+<Cardhomepage
+      year="2017"
+      location="London, UK"
+      cardlogo={require('../images/shelterlogo.png')}
+      title="Shelter"
+      categories="Service strategy + projects"
+      description="Helping Shelter become a Human Centred organisation, focusing on the housing advice services given to millions of people."
+      arrow={require('../images/arrow-down.svg')}/>
+
+{/*<Cardhomepage
       year="2016"
       location="London, UK"
       title="Service Design Today"
       categories="Research"
       description="A snapshot of how Service Design & Design Thinking are becoming to be. Includes interviews with Livework, IDEO, Facebook, and more"
       cardlogo={require('../images/shelterlogo.png')}/>
+*/}
+
+     </div>
+
+     <div className="page">
+      <p className="bio">I’m a hybrid designer – which means my profile is adaptable to the needs of the team.</p>
+      <img className="avatar" src={require('../images/shelterlogo.png')} alt="photo of Matteo Remondini" ></img>
+      <a href="">
+        <p className="downloadtext">Download the resume</p>
+        <img className="downloadicon" src={require('../images/downloadicon.svg')} alt="download icon"></img> 
+      </a>
      </div>
   </Layout>
 )
