@@ -18,11 +18,11 @@ const Layout = ({ children }) => (
       <>
           <div>
           <main>{children}</main>
-          <footer class="footer">
-            <a class="footer-email" href=" ">Email</a>
-            <a class="footer-linkedin" href=" ">LinkedIn</a>
+          <footer class="footer">s
+            <a class="footer__email" href=" ">Email</a>
+            <a class="footer__linkedin" href=" ">LinkedIn</a>
             <br/>
-            <i class="love">Made with love, from scratch</i>
+            <i class="footer__love-text">Made with love, from scratch</i>
           </footer>
         </div>
       </>

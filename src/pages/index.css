@@ -68,20 +68,19 @@ h4 {
     font-size: 16px;
     line-height: 1;
     color: #8B8B8B;
-
 }
 
 
 
 
-.Hero {
+.homepage__hero {
     padding:0;
     height:90vh;    
     vertical-align: middle;
     position:relative;
 }
 
-.HeroGroup {
+.homepage__hero__group {
     top:50%;
     left:50%;
     transform: translate(-50%, -50%);
@@ -95,26 +94,24 @@ h4 {
 
 
 
-.Hero-h1 {
+.homepage__hero__h1 {
     font-size: 30px;
     line-height: 1;
     margin-left: 0;
     margin-top: 0;
 }
 
-.Hero-p{
+.homepage__hero__p{
     padding-top:30px;
     padding-bottom:30px;
     max-width:492px;
     margin:auto;
-    
 }
 
-.Hero-h2{
+.homepage__hero__h2{
     max-width:400px;
     margin-left:auto;
     text-align:right;
-   
 }
 
 

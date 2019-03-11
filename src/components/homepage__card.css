@@ -1,5 +1,5 @@
 
-.Cardhomepage {
+.homepage__card {
     display: grid;
     width: 80%;
     max-width:670px;
@@ -11,11 +11,11 @@
 }
 
 
-.Cardhomepage:hover {
+.homepage__card:hover {
     box-shadow: 0px 10px 70px rgba(0, 0, 0, 0.05);
 }
 
-.cardlogo{
+.homepage__card__logo{
     width:55px;
     height:55px;
     margin-left:auto;
@@ -24,14 +24,14 @@
 }
 
 
-.year{
+.homepage__card__year{
     margin-top:0px;
     grid-row: 1/2;
     grid-column: 1/2;
     font-weight: normal;
 }
 
-.location{
+.homepage__card__location{
     margin-top:0;
     grid-row: 2/3;
     grid-column: 1/2;
@@ -39,18 +39,18 @@
     
 }
 
-.Cardhomepage h4 {
+.homepage__card h4 {
     text-decoration:none;
 }
 
-.Cardhomepage h2 {
+.homepage__card h2 {
     margin:0;
     padding:20px 0 20px 0;
     grid-row: 3/4;
     text-decoration: underline;
 }
 
-.Cardhomepage h3 {
+.homepage__card h3 {
     margin:0;
     padding-bottom:30px;
     grid-row: 4/5;
@@ -58,7 +58,7 @@
 }
 
 
-.Cardhomepage p {
+.homepage__card p {
     font-family: 'Rosarivo', serif;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
@@ -79,7 +79,7 @@
     transform: rotate(270deg);
 }
 
-.cardlink {
+.homepage__card__link {
     all: initial;
     cursor: pointer;
   }

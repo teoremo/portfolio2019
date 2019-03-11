@@ -9,15 +9,15 @@
 
 }
 
-.footer-email{
+.footer__email{
     grid-column:2/3;
 }
 
-.footer-linkedin{
+.footer__linkedin{
     grid-column:3/4;
 }
 
-.footer .love{
+.footer__love-text{
     grid-column:1/4;
     grid-row:2/3;
 }

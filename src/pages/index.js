@@ -4,19 +4,19 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import "./index.css"
-import Cardhomepage from "../components/Cardhomepage"
+import Cardhomepage from "../components/homepage__card"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Tile of this page" keywords={[`gatsby`, `application`, `react`]} />
 
-    <div className="Hero">
-      <div className="HeroGroup">
-        <h1 className="Hero-h1">Matteo Remondini <br/> Service designer</h1>
-        <div className="Hero-p">
+    <div className="homepage__hero">
+      <div className="homepage__hero__group">
+        <h1 className="homepage__hero__h1">Matteo Remondini <br/> Service designer</h1>
+        <div className="homepage__hero__p">
         <p>Passionate about complex problems, interested in human behaviour and intrigued by anything that is about change for the better.</p>
         </div>
-        <div  className="Hero-h2">
+        <div  className="homepage__hero__h2">
         <h2>This is a selection of work I’ve done over the years</h2>
         </div>
         <img className="arrow-down" src={require('../images/arrow-down.svg')} alt="arrow pointing down" ></img>
@@ -35,7 +35,7 @@ const IndexPage = () => (
       description="Helping Shelter become a Human Centred organisation, focusing on the housing advice services given to millions of people."
       arrow={require('../images/arrow-down.svg')}/>
 
-<Cardhomepage
+      <Cardhomepage
       year="2017"
       location="London, UK"
       cardlogo={require('../images/shelterlogo.png')}

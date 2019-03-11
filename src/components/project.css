@@ -1,0 +1,16 @@
+.project-wrapper {
+    width:90vw;
+    position:relative;
+    margin-top:10vw;
+}
+
+.project__hero__img {
+    object-fit: cover;
+}
+
+.project__description-wrapper{
+    width:85vw;
+    padding:10vw;
+
+}
+
