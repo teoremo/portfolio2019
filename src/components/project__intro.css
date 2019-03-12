@@ -1,4 +1,4 @@
-.project-wrapper {
+.project__intro__wrapper {
     width:90vw;
     position:relative;
     margin-top:10vw;
@@ -12,5 +12,12 @@
     width:85vw;
     padding:10vw;
 
+}
+
+.project__hero__logo{
+    width:150px;
+    height:auto;
+    margin-left:auto;
+    margin-bottom:auto;
 }
 

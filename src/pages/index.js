@@ -4,6 +4,7 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import "./index.css"
+import "./global-styles.css"
 import Cardhomepage from "../components/homepage__card"
 
 const IndexPage = () => (
@@ -23,7 +24,7 @@ const IndexPage = () => (
       </div>
      </div>
 
-     <div className="page">
+     <div className="homepage__page">
      
      
      <Cardhomepage
@@ -55,7 +56,7 @@ const IndexPage = () => (
 
      </div>
 
-     <div className="page">
+     <div className="homepage__page">
       <p className="bio">I’m a hybrid designer – which means my profile is adaptable to the needs of the team.</p>
       <img className="avatar" src={require('../images/shelterlogo.png')} alt="photo of Matteo Remondini" ></img>
       <a href="">

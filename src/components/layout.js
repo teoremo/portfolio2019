@@ -18,7 +18,7 @@ const Layout = ({ children }) => (
       <>
           <div>
           <main>{children}</main>
-          <footer class="footer">s
+          <footer class="footer">
             <a class="footer__email" href=" ">Email</a>
             <a class="footer__linkedin" href=" ">LinkedIn</a>
             <br/>
