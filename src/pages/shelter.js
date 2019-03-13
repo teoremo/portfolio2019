@@ -5,31 +5,22 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import "./global-styles.css"
 import Projectintro from "../components/project__intro"
-import "../components/project__intro.css"
 
-const shelter = () => (
+export default () => (
     <Layout>
-        <SEO title="Tile of this page" keywords={[`gatsby`, `application`, `react`]} />
-        
-        
-        
-        <Projectintro 
-            image={require('')}
-            h1=""
-            h2=""
-            p=""
+        <SEO title="Tile of this page"/>
+            <Projectintro 
+            image={require('../images/shelter1.jpg')}
+            h1="Shelter"
+            h2="Service strategy + projects"
+            p="Lorem ipsum lorem ipsum. Lorem ipsum lorem ipsumLorem ipsum lorem ipsumLorem ipsum lorem ipsumLorem ipsum lorem ipsumLorem ipsum lorem ipsumLorem ipsum lorem ipsumLorem ipsum lorem ipsumLorem ipsum lorem ipsumLorem ipsum lorem ipsumLorem ipsum lorem ipsum"
+            />
 
-        />
-            
-
-        <img src=""/>
+        
         <div className="project__article__page">
-            <h1 className="project__article__h1"></h1>
-            <p className="project__article__p"></p>
+            <h1 className="project__article__h1">Helping bla bla helpline</h1>
+            <p className="project__article__p">loads of lorem ipsum here</p>
         </div>
-
 
   </Layout>
 )
-
-export default shelter

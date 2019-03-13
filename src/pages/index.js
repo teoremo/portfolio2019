@@ -26,7 +26,7 @@ const IndexPage = () => (
 
      <div className="homepage__page">
      
-     
+     <Link to="/shelter/">shelter</Link>
      <Cardhomepage
       year="2017"
       location="London, UK"
