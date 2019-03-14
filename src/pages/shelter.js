@@ -14,6 +14,10 @@ export default () => (
             h1="Shelter"
             h2="Service strategy + projects"
             p="Lorem ipsum lorem ipsum. Lorem ipsum lorem ipsumLorem ipsum lorem ipsumLorem ipsum lorem ipsumLorem ipsum lorem ipsumLorem ipsum lorem ipsumLorem ipsum lorem ipsumLorem ipsum lorem ipsumLorem ipsum lorem ipsumLorem ipsum lorem ipsumLorem ipsum lorem ipsum"
+            year-location="2018, London"
+            category="Service Design"
+            team="service designers"
+            logo={require('../images/shelterlogo.png')}
             />
 
         
