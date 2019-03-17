@@ -11,7 +11,7 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Tile of this page" keywords={[`gatsby`, `application`, `react`]} />
 
-    <div className="homepage__hero">
+    <div className="homepage__hero-wrapper">
       <div className="homepage__hero__group">
         <h1 className="homepage__hero__h1">Matteo Remondini <br/> Service designer</h1>
         <div className="homepage__hero__p">
@@ -26,7 +26,7 @@ const IndexPage = () => (
 
      <div className="homepage__page">
      
-     <Link to="/shelter/">shelter</Link>
+     <Link to="/shelter/">
      <Cardhomepage
       year="2017"
       location="London, UK"
@@ -35,6 +35,7 @@ const IndexPage = () => (
       categories="Service strategy + projects"
       description="Helping Shelter become a Human Centred organisation, focusing on the housing advice services given to millions of people."
       arrow={require('../images/arrow-down.svg')}/>
+      </Link>
 
       <Cardhomepage
       year="2017"

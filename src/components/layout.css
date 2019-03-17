@@ -3,7 +3,7 @@
     width:90%;
     max-width: 1134px;
     text-align: right;
-    margin:0 auto;
+    margin:100px auto 0 auto;
     grid-template-columns: auto 120px 120px;
     grid-template-rows: 60px 60px;
 
