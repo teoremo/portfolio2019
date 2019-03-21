@@ -1,16 +1,16 @@
 import React from "react"
 import { Link } from "gatsby"
+import { graphql } from "gatsby"
+import Img from "gatsby-image"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import buttonback from "../components/buttonback"
 import "./global-styles.css"
 import Projectintro from "../components/project__intro"
+import Buttonback from "../components/buttonback";
 
 export default () => (
-    <Layout>
-        <buttonback></buttonback>
-        <SEO title="Tile of this page"/>
+    <Layout>        <SEO title="Tile of this page"/>
             <Projectintro 
             image={require('../images/shelter1.jpg')}
             h1="Shelter"
@@ -27,8 +27,9 @@ export default () => (
             <div className="project__article__wrapper">
                 <h1 className="project__article__h1">Helping bla bla helpline</h1>
                 <p className="project__article__p">loads of lorem ipsum here</p>
-            </div>
+                <Buttonback></Buttonback>
 
+            </div>           
         </div>
 
   </Layout>

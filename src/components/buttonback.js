@@ -1,11 +1,17 @@
 import React from 'react'
+import { Link } from "gatsby"
+
 import './buttonback.css'
 
-const buttonback = () => (
-    <div><p>otest</p>
-        <img className="arrow_left" src={require('../images/downloadicon.svg')} alt="arrow going back" ></img>
-        <h3>back home</h3>
-    </div>
+
+
+const Buttonback = props => (
+    <Link to="/">
+        <div className="button-back">
+            <img className="arrow_left" src={require('../images/arrow-down.svg')} alt="arrow going back" ></img>
+            <h3>back home</h3>
+        </div>
+    </Link>
 )
 
-export default buttonback
+export default Buttonback

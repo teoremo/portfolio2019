@@ -1,5 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
+import { graphql } from "gatsby"
+import Img from "gatsby-image"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -7,12 +9,15 @@ import "./index.css"
 import "./global-styles.css"
 import Cardhomepage from "../components/homepage__card"
 
-const IndexPage = () => (
+
+
+const IndexPage = (props) => (
   <Layout>
     <SEO title="Tile of this page" keywords={[`gatsby`, `application`, `react`]} />
 
     <div className="homepage__hero-wrapper">
-      <div className="homepage__hero__group">
+    <Img fluid={props.data.imageOne.childImageSharp.fluid} />    
+     <div className="homepage__hero__group">
         <h1 className="homepage__hero__h1">Matteo Remondini <br/> Service designer</h1>
         <div className="homepage__hero__p">
         <p>Passionate about complex problems, interested in human behaviour and intrigued by anything that is about change for the better.</p>
@@ -22,6 +27,7 @@ const IndexPage = () => (
         </div>
         <img className="arrow-down" src={require('../images/arrow-down.svg')} alt="arrow pointing down" ></img>
       </div>
+      
      </div>
 
      <div className="homepage__page">
@@ -59,13 +65,29 @@ const IndexPage = () => (
 
      <div className="homepage__page">
       <p className="bio">I’m a hybrid designer – which means my profile is adaptable to the needs of the team.</p>
-      <img className="avatar" src={require('../images/shelterlogo.png')} alt="photo of Matteo Remondini" ></img>
-      <a href="">
+      <img className="avatar" src={require('../images/shelterlogo.png')} alt="Matteo Remondini" ></img>
+      <a href="www.teoremo.com">
         <p className="downloadtext">Download the resume</p>
         <img className="downloadicon" src={require('../images/downloadicon.svg')} alt="download icon"></img> 
       </a>
      </div>
+
+
+
   </Layout>
 )
 
 export default IndexPage
+
+
+export const query = graphql`
+query {
+  imageOne: file(relativePath: {eq: "shelter2.jpg"}) {
+    childImageSharp {
+      fluid(maxWidth: 1000) {
+        ...GatsbyImageSharpFluid
+      }
+    }
+  }
+}
+`

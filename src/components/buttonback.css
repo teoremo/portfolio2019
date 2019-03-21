@@ -1,5 +1,11 @@
-.arrow-left {
+.button-back{
+    margin:6rem 0 6rem 0;
+}
+
+.arrow_left {
+    float:left;
     width:25px;
     height:25px;
     transform: rotate(90deg);
+    margin:0 1rem 0 1rem;
 }
