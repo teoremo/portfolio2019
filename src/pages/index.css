@@ -1,5 +1,6 @@
 .homepage__hero-wrapper {
-    height:90vh;    
+    height:70vh;
+    margin-top:5vw;    
     vertical-align: middle;
     position:relative;
 }
@@ -41,9 +42,9 @@
 
 
 .arrow-down{
-    left:50%;
-    padding-top: 50px;
-    position:absolute;
+    position:relative;
+    max-width:30px;
+    margin: 5vh auto;
 }
 
 
@@ -51,9 +52,9 @@
 .homepage__page{
     width:90%;
     max-width: 1134px;
-    margin:0 auto;
+    margin:0 auto 60px auto;
     position:relative;
-    padding:60px 0 60px 0;
+    padding:90px 0 60px 0;
     box-shadow: 0px 10px 70px rgba(0, 0, 0, 0.05);
     text-align:center;
 }

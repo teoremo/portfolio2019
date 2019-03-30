@@ -16,7 +16,7 @@ const IndexPage = (props) => (
     <SEO title="Tile of this page" keywords={[`gatsby`, `application`, `react`]} />
 
     <div className="homepage__hero-wrapper">
-    <Img fluid={props.data.imageOne.childImageSharp.fluid} />    
+        
      <div className="homepage__hero__group">
         <h1 className="homepage__hero__h1">Matteo Remondini <br/> Service designer</h1>
         <div className="homepage__hero__p">
@@ -25,11 +25,15 @@ const IndexPage = (props) => (
         <div  className="homepage__hero__h2">
         <h2>This is a selection of work I’ve done over the years</h2>
         </div>
-        <img className="arrow-down" src={require('../images/arrow-down.svg')} alt="arrow pointing down" ></img>
+        
+
       </div>
+     
       
      </div>
-
+     <div className="arrow-down">
+        <img  src={require('../images/arrow-down.svg')} alt="arrow pointing down" ></img>
+        </div>
      <div className="homepage__page">
      
      <Link to="/shelter/">
@@ -79,15 +83,3 @@ const IndexPage = (props) => (
 
 export default IndexPage
 
-
-export const query = graphql`
-query {
-  imageOne: file(relativePath: {eq: "shelter2.jpg"}) {
-    childImageSharp {
-      fluid(maxWidth: 1000) {
-        ...GatsbyImageSharpFluid
-      }
-    }
-  }
-}
-`

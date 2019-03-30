@@ -4,8 +4,8 @@
     width: 80%;
     max-width:670px;
     position: relative;
-    margin: 80px auto 80px auto;
-    padding: 30px 7% 30px 7%;
+    margin: 0 auto 80px auto;
+    padding: 50px 7% 50px 7%;
     grid-template-columns: auto 55px;
     grid-template-rows: 26px 26px auto auto auto 25px;
 }
