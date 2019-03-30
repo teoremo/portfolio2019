@@ -14,7 +14,7 @@ import Cardhomepage from "../components/homepage__card"
 const IndexPage = (props) => (
   <Layout>
     <SEO title="Tile of this page" keywords={[`gatsby`, `application`, `react`]} />
-
+    
     <div className="homepage__hero-wrapper">
         
      <div className="homepage__hero__group">
@@ -32,7 +32,7 @@ const IndexPage = (props) => (
       
      </div>
      <div className="arrow-down">
-        <img  src={require('../images/arrow-down.svg')} alt="arrow pointing down" ></img>
+        <img  src={require('../images/arrow-down.png')} alt="arrow pointing down" ></img>
         </div>
      <div className="homepage__page">
      
@@ -44,7 +44,7 @@ const IndexPage = (props) => (
       title="Shelter"
       categories="Service strategy + projects"
       description="Helping Shelter become a Human Centred organisation, focusing on the housing advice services given to millions of people."
-      arrow={require('../images/arrow-down.svg')}/>
+      arrow={require('../images/arrow-down.png')}/>
       </Link>
 
       <Cardhomepage
@@ -54,7 +54,7 @@ const IndexPage = (props) => (
       title="Shelter"
       categories="Service strategy + projects"
       description="Helping Shelter become a Human Centred organisation, focusing on the housing advice services given to millions of people."
-      arrow={require('../images/arrow-down.svg')}/>
+      arrow={require('../images/arrow-down.png')}/>
 
 {/*<Cardhomepage
       year="2016"
@@ -72,7 +72,7 @@ const IndexPage = (props) => (
       <img className="avatar" src={require('../images/shelterlogo.png')} alt="Matteo Remondini" ></img>
       <a href="www.teoremo.com">
         <p className="downloadtext">Download the resume</p>
-        <img className="downloadicon" src={require('../images/downloadicon.svg')} alt="download icon"></img> 
+        <img className="downloadicon" src={require('../images/downloadicon.png')} alt="download icon"></img> 
       </a>
      </div>
 

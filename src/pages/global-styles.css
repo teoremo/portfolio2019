@@ -67,15 +67,19 @@ h4 {
     font-weight: 400;
 }
 
-
-.project__article__p{
-    font-size: 20px;
-    line-height: 1.6;
-
+.project__hero__img {
+    display:block;
+    object-fit: cover;
+    max-width:1366px;
+    margin:3vw auto 0 auto;
+    width: 90vw;
+    height: 95vh;
 }
 
-.project__article__h1{
-
+.project__article__wrapper{
+    padding:8vh 10%;
+    max-width: 784px;
+    margin:0;
 }
 
 .project__article__page{
@@ -88,12 +92,12 @@ h4 {
     box-shadow: 0px 10px 70px rgba(0, 0, 0, 0.05);
 }
 
-.project__article__wrapper{
-    padding:8vh 10%;
-
-    max-width: 784px;
-    margin:0;
+.project__article__p{
+    font-size: 20px;
+    line-height: 1.6;
 }
+
+
 
 .image-s{
     max-width:60vw;

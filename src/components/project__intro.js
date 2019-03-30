@@ -3,7 +3,7 @@ import './project__intro.css'
 
 const Projectintro = props => (
     <div>
-            <img className="project__hero__img" src={props.image}></img>
+            
             <div className="project__description-page">
             <div className="project__description__wrapper">
                 <h1 className="project__description__h1">{props.h1}</h1>

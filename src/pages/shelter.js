@@ -9,8 +9,12 @@ import "./global-styles.css"
 import Projectintro from "../components/project__intro"
 import Buttonback from "../components/buttonback";
 
+
 export default (props) => (
     <Layout>        <SEO title="Tile of this page"/>
+          <div className="project__hero__img">
+            <Img fluid={props.data.imageCover.childImageSharp.fluid} />
+          </div> 
             <Projectintro 
             image={require('../images/shelter-cover.jpg')}
             h1="Shelter Service strategy + projects"
@@ -20,9 +24,8 @@ export default (props) => (
             team="service designers"
             logo={require('../images/shelterlogo.png')}
             />
-            <div className="image-s">
-                <Img fluid={props.data.imageOne.childImageSharp.fluid} />
-            </div>
+        <Img className="image-s" fluid={props.data.imageOne.childImageSharp.fluid} />
+        
 
         <div className="project__article__page">
             <div className="project__article__wrapper">
@@ -31,13 +34,20 @@ export default (props) => (
             </div>
         </div>
 
-        <div className="image-l">
-            <Img fluid={props.data.imageTwo.childImageSharp.fluid} />
-        </div>    
+        <Img className="image-l" fluid={props.data.imageTwo.childImageSharp.fluid} />
+          
 
          <div className="project__article__page">
             <div className="project__article__wrapper">
                 <p className="project__article__p">loads of lorem ipsum here</p>
+                <Cardhomepage
+                  year="2017"
+                  location="London, UK"
+                  cardlogo={require('../images/shelterlogo.png')}
+                  title="Shelter"
+                  categories="Service strategy + projects"
+                  description="Helping Shelter become a Human Centred organisation, focusing on the housing advice services given to millions of people."
+                  arrow={require('../images/arrow-down.png')}/>
                 <Buttonback></Buttonback>
             </div>
         </div> 
@@ -47,6 +57,13 @@ export default (props) => (
 
 export const query = graphql`
 query {
+  imageCover: file(relativePath: {eq: "shelter-cover.jpg"}) {
+    childImageSharp {
+      fluid {
+        ...GatsbyImageSharpFluid
+      }    
+    } 
+  } 
   imageOne: file(relativePath: {eq: "shelter-1.jpg"}) {
     childImageSharp {
       fluid {
