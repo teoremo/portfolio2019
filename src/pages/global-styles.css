@@ -26,7 +26,7 @@ a {
     color: black;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .inlink{
@@ -67,6 +67,8 @@ h4 {
     font-weight: 400;
 }
 
+/*Projects*/
+
 .project__hero__img {
     display:block;
     object-fit: cover;
@@ -77,9 +79,9 @@ h4 {
 }
 
 .project__article__wrapper{
-    padding:8vh 10%;
+    padding:60px 7.5vw;
     max-width: 784px;
-    margin:0;
+
 }
 
 .project__article__page{
@@ -94,22 +96,44 @@ h4 {
 
 .project__article__p{
     font-size: 20px;
-    line-height: 1.6;
+    line-height: 180%;
 }
 
 
+
+
+/*images*/
 
 .image-s{
     max-width:60vw;
     margin: 0 auto 60px auto;
 }
 
-.image-s{
+.image-m{
     max-width:75vw;
     margin: 0 auto 60px auto;
 }
 
 .image-l{
-    max-width:90vw;
+    width:90vw;
+    max-width:1366px;
     margin: 0 auto 60px auto;
 }
+
+
+/*flair*/
+
+
+.flair__grid{
+    display:grid;
+    width:90vw;
+    max-width:1366px;
+    position: relative;
+    margin: 0 auto 60px auto;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 1rem;
+}
+
+.flair__grid__image{
+    width: 100%;
+ }

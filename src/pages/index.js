@@ -14,7 +14,7 @@ import Cardhomepage from "../components/homepage__card"
 const IndexPage = (props) => (
   <Layout>
     <SEO title="Tile of this page" keywords={[`gatsby`, `application`, `react`]} />
-    
+
     <div className="homepage__hero-wrapper">
         
      <div className="homepage__hero__group">
@@ -32,7 +32,7 @@ const IndexPage = (props) => (
       
      </div>
      <div className="arrow-down">
-        <img  src={require('../images/arrow-down.png')} alt="arrow pointing down" ></img>
+        <img  src={require('../images/arrow-down.svg')} alt="arrow pointing down" ></img>
         </div>
      <div className="homepage__page">
      
@@ -44,17 +44,19 @@ const IndexPage = (props) => (
       title="Shelter"
       categories="Service strategy + projects"
       description="Helping Shelter become a Human Centred organisation, focusing on the housing advice services given to millions of people."
-      arrow={require('../images/arrow-down.png')}/>
+      arrow={require('../images/arrow-down.svg')}/>
       </Link>
 
+      <Link to="/flair/">
       <Cardhomepage
-      year="2017"
+      year="2015"
       location="London, UK"
-      cardlogo={require('../images/shelterlogo.png')}
-      title="Shelter"
-      categories="Service strategy + projects"
-      description="Helping Shelter become a Human Centred organisation, focusing on the housing advice services given to millions of people."
-      arrow={require('../images/arrow-down.png')}/>
+      cardlogo={require('../images/flair-logo.png')}
+      title="Flair"
+      categories="User research + Service Design"
+      description="Would a “Uber for hairdressers” work in London? An innovative proposition for a funded venture active in the beauty sector."
+      arrow={require('../images/arrow-down.svg')}/>
+      </Link>
 
 {/*<Cardhomepage
       year="2016"
@@ -69,10 +71,10 @@ const IndexPage = (props) => (
 
      <div className="homepage__page">
       <p className="bio">I’m a hybrid designer – which means my profile is adaptable to the needs of the team.</p>
-      <img className="avatar" src={require('../images/shelterlogo.png')} alt="Matteo Remondini" ></img>
+      <img className="avatar" src={require('../images/avatar.jpg')} alt="Matteo Remondini" ></img>
       <a href="www.teoremo.com">
         <p className="downloadtext">Download the resume</p>
-        <img className="downloadicon" src={require('../images/downloadicon.png')} alt="download icon"></img> 
+        <img className="downloadicon" src={require('../images/downloadicon.svg')} alt="download icon"></img> 
       </a>
      </div>
 

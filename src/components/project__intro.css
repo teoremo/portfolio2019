@@ -11,7 +11,7 @@
 
 .project__description__wrapper{
     display:grid;
-    padding:3vw 10%;
+    padding:60px 7.5vw;
     grid-template-columns:70% 30%;
     grid-template-rows:3;
     grid-template-areas:"h1 h1" "text text" "details logo" 
