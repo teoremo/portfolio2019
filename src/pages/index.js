@@ -47,6 +47,17 @@ const IndexPage = (props) => (
       arrow={require('../images/arrow-down.svg')}/>
       </Link>
 
+      <Link to="/">
+      <Cardhomepage
+      year="2016"
+      location="London, UK"
+      cardlogo={require('../images/sdt-logo.png')}
+      title="Service Design Today"
+      categories="Research"
+      description={<p>A snapshot of how Service Design & Design Thinking are becoming to be. Includes interviews with Livework, IDEO, Facebook, and more</p>}
+      arrow={require('../images/arrow-down.svg')}/>
+      </Link>
+
       <Link to="/flair/">
       <Cardhomepage
       year="2015"
@@ -58,14 +69,27 @@ const IndexPage = (props) => (
       arrow={require('../images/arrow-down.svg')}/>
       </Link>
 
-{/*<Cardhomepage
-      year="2016"
-      location="London, UK"
-      title="Service Design Today"
-      categories="Research"
-      description="A snapshot of how Service Design & Design Thinking are becoming to be. Includes interviews with Livework, IDEO, Facebook, and more"
-      cardlogo={require('../images/shelterlogo.png')}/>
-*/}
+      <Link to="/gimble/">
+      <Cardhomepage
+      year="2014"
+      location="Milano, Italy"
+      cardlogo={require('../images/logo-polimi.png')}
+      title="Gimble: introducing kids to sports"
+      categories="Product-Service System + Business Design"
+      description={<p>How to help shy kids get into team sports?<br/>Final project, part of Politecnico’s two-year MSc programme in Product-Service System Design</p>}
+      arrow={require('../images/arrow-down.svg')}/>
+      </Link>
+
+      <Link to="/">
+      <Cardhomepage
+      year="2012-2014"
+      location="Milano, Italy"
+      cardlogo={require('../images/logo-appstore.png')}
+      title="Other stuff"
+      categories="Communication design projects"
+      description="Including an award-winning app, editorial work, and a co-founded screenprint & graphic design studio in Milan, Italy."
+      arrow={require('../images/arrow-down.svg')}/>
+      </Link>
 
      </div>
 

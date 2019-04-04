@@ -142,3 +142,36 @@ h4 {
 .flair__grid__image{
     width: 100%;
  }
+
+
+ 
+
+/*gimble*/
+
+.gimble__quote__div{
+    max-width:60vw;
+    margin: 0 auto 60px auto;
+    text-align: center;
+}
+
+.gimble__quote{
+    font-family: 'Rosarivo', serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    font-size: 26px;
+    line-height: 1.6;
+    margin:0;
+    padding:0;
+    color:#17C792
+}
+
+.gimble__caption{
+    font-family: 'Rosarivo', serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    font-size: 20px;
+    line-height: 1.4;
+    margin:0;
+    padding:0;
+    color:#8B8B8B
+}

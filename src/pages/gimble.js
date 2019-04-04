@@ -44,7 +44,10 @@ export default (props) => (
 
         <Img className="image-s" fluid={props.data.imageThree.childImageSharp.fluid} />
         
-<div></div>
+        <div className="gimble__quote__div">
+            <p className="gimble__quote"><i>&ldquo;The feedback may be very useful for the development of regular motor activities - walking, running or jumping.<br/>One of the problems of children is the difficulty in maintaining a rhythm. <br />Sound feebacks will make it easier for the child.&rdquo;</i></p>
+            <p className="gimble__quote__caption"><i>Anne Marie Aline Wille, Psychomotrician and musician</i></p>
+        </div>
 
 
         <div className="project__article__page">
