@@ -97,6 +97,7 @@ h4 {
 .project__article__p{
     font-size: 20px;
     line-height: 180%;
+    max-width: 900px;
 }
 
 .project__article__p--small{

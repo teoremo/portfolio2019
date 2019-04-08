@@ -10,14 +10,12 @@ import Projectintro from "../components/project__intro"
 import Buttonback from "../components/buttonback";
 import Cardshelter from "../components/shelter__card";
 
-
 export default (props) => (
     <Layout>        <SEO title="Tile of this page"/>
           <div className="project__hero__img">
             <Img fluid={props.data.imageCover.childImageSharp.fluid} />
           </div> 
             <Projectintro 
-            image={require('../images/shelter-cover.jpg')}
             h1="Shelter service strategy + projects"
             p={<p>As the first Service Designer for the leading housing &amp; homelessness British charity, I&rsquo;m advocating for Design Thinking within the organization, with a focus on improving the services <strong>we provide to people in urgent need of help with housing</strong>. <br /><br />By acting as a &lsquo;hands-on&rsquo; Service &amp; UX Designer and actively engaging with senior management stakeholders, I&rsquo;ve successfully contributed to Human Centred Design becoming a key element of Services&rsquo; division long term strategy.</p>}
             yearlocation="2018, London"

@@ -80,7 +80,7 @@ const IndexPage = (props) => (
       arrow={require('../images/arrow-down.svg')}/>
       </Link>
 
-      <Link to="/">
+      <Link to="/commdesign/">
       <Cardhomepage
       year="2012-2014"
       location="Milano, Italy"

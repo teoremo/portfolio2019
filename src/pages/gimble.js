@@ -15,7 +15,6 @@ export default (props) => (
             <Img fluid={props.data.imageCover.childImageSharp.fluid} />
           </div> 
             <Projectintro 
-            image={require('../images/gimble-cover.jpg')}
             h1="Gimble: introducing kids to team sports"
             p={<p>How do we help shy kids enjoy team sports? <br />Gimble <strong>introduces kids to sport using motion sensors and music</strong> as means to support the physical activities and facilitate the interaction among them.<br /><br />The project has been tutored and prototyped at Politecnico di Milano, in partnership with IDEO and Stanford University as part of my MSc in Product-Service System Design</p>}
             yearlocation="2015 - Milan, Italy"
