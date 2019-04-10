@@ -88,7 +88,7 @@ const IndexPage = (props) => (
       title="Other stuff"
       categories="Communication design projects"
       description="Including an award-winning app, editorial work, and a co-founded screenprint & graphic design studio in Milan, Italy."
-      arrow={require('../images/arrow-down.svg')}/>
+      arrow={require('../images/arrow-down.svg') }/>
       </Link>
 
      </div>
