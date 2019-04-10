@@ -6,7 +6,7 @@ const Commsprj = props => (
             
             <div className="comms__project__description-page">
             <div className="comms__project__description__wrapper">
-                <h1 >{props.h1}</h1>
+                <h2 className="h2-big">{props.h2}</h2>
                 <div >
                         <h4 className="comms__project__description__year-location-text">Year & location</h4>
                         <h4 className="comms__project__description__year-location">{props.yearlocation}</h4>

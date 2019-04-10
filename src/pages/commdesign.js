@@ -33,8 +33,8 @@ export default (props) => (
             yearlocation="2014 - Milano, Italy"
             category="Art direction, Branding, UI Design, 3D animation"
             team="Service Designer, Product Owner, Lead UX Designer, Developer"
-            h1="Harika"
-            p={<p>Harika is a mobile app which guides customers to find everything about hairdressing &ndash; stylists, saloons, haircuts and offered services &ndash; in their local area. I've been responsible for the brand&rsquo;s identity and the product&rsquo;s user experience + user interface. <br />Harika featured as one of the "Best new apps" in the App Store.</p>}
+            h2="Harika"
+            p={<p>Harika is a mobile app which guides customers to find everything about hairdressing &ndash; stylists, saloons, haircuts and offered services &ndash; in their local area. I've been responsible for the brand&rsquo;s identity and the product&rsquo;s user experience + user interface. <br /><br />Harika featured as one of the "Best new apps" in the App Store.</p>}
         />
 
         <div className="saporita__grid">
@@ -47,8 +47,8 @@ export default (props) => (
             yearlocation="2014 - Milano, Italy"
             category="Branding, Strategic Design"
             team="Communication Designer,  Chef, Quality & Food safety technician, Catering consultant"
-            h1="Saporita’"
-            p={<p>In 2014, as part of a collaboration with the Michelin Starred restaurant Innocenti Evasioni, I helped creating Saporit&agrave;.<br />The project aimed at exploring business opportunities for Italian&rsquo;s food excellence in Asian markets.<br />As part of the team, composed by fine-dining professionals, I devised the branding identity.</p>}
+            h2="Saporita’"
+            p={<p>In 2014, as part of a collaboration with the Michelin starred Milanese restaurant Innocenti Evasioni, I helped creating Saporit&agrave;.<br /><br />The project aimed at exploring business opportunities for Italian&rsquo;s food excellence in Asian markets. As part of the team, composed by fine-dining professionals, I devised the branding identity.</p>}
         />
 
         <div className="sacrem__grid">
@@ -57,29 +57,29 @@ export default (props) => (
         </div>
 
         <Commsprj 
-            h1="Sacremstudio{<br/>}Screenprinting & graphic design."
+            h2="Sacremstudio: screenprinting & graphic design."
             yearlocation="2012 - 2015 - Milano, Italy"
             category="Interaction design, visual design, screenprinting"
             team="Communication designers x 4"
-            p={<p>Back in 2012 a good friend of mine built a screenprinter and started experimenting with prints on old t-shirts. Months later myself and a few other friends joined the project and founded Sacr&egrave;m, a graphic design and screenprinting studio.<br />Now Sacr&egrave;m is fully operative. Services range from branding to videomaking, from screenprinting to interaction design.</p>}
+            p={<p>Back in 2012 a good friend of mine built a screenprinter and started experimenting with prints on old t-shirts. Months later myself and a few other friends joined the project and founded Sacr&egrave;m, a graphic design and screenprinting studio.<br /><br/>Now Sacr&egrave;m is fully operative. Services range from branding to videomaking, from screenprinting to interaction design.</p>}
         />
+        
 
-        <Commsprj>
-            h1="A visual book: "Il salto dell'acciuga""
+        <div className="sintesi__grid">
+          <Img  className="sintesi__grid__image-1" fluid={props.data.imageNine.childImageSharp.fluid} />
+          <Img  className="sintesi__grid__image-2" fluid={props.data.imageTen.childImageSharp.fluid} />
+        </div>
+
+        <Commsprj
+            h2="A visual book: Il salto dell'acciuga"
             yearlocation="2014 - Milano, Italy"
             category="Editorial Design"
             team="Communication designer"
-            p={<p>&ldquo;Il salto dell&rsquo;acciuga&rdquo; is a novel written by the Italian author Nico Orengo, based on the story of a traditional italian dish, the &ldquo;bagna cauda&rdquo; - a soup made of garlic and anchovies.</p>
-<p>The dissertation focused on reinterpretating the book with a deeper sense of what the author wanted to communicate.</p>
-<p>I made a postcard folder book, which underlines every self-ending paragraph of the novel and the romantic feeling of the book with experimentally illustrated postcards.</p>}
-        <Buttonback></Buttonback>
-        </Commsprj> 
+            p={<><p>&ldquo;Il salto dell&rsquo;acciuga&rdquo; is a novel written by the Italian author Nico Orengo, based on the story of a traditional italian dish, the &ldquo;bagna cauda&rdquo; - a soup made of garlic and anchovies.<br/>The dissertation focused on reinterpretating the book with a deeper sense of what the author wanted to communicate.<br/>I made a postcard folder book, which underlines every self-ending paragraph of the novel and the romantic feeling of the book with experimentally illustrated postcards.</p>
+<Buttonback></Buttonback></> } >
         
-
-
-
-      
-
+        </Commsprj> 
+       
 
 
     </Layout>
@@ -150,14 +150,14 @@ query {
         }      
       }
     }
-    imageNine: file(relativePath: {eq: "sintesi-1.png"}) {
+    imageNine: file(relativePath: {eq: "sintesi-1.jpg"}) {
         childImageSharp {
         fluid {
             ...GatsbyImageSharpFluid
         }      
       }
     }
-    imageTen: file(relativePath: {eq: "sintesi-2.png"}) {
+    imageTen: file(relativePath: {eq: "sintesi-2.jpg"}) {
       childImageSharp {
       fluid {
           ...GatsbyImageSharpFluid

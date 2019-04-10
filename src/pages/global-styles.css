@@ -49,6 +49,11 @@ h2 {
     line-height: 1;
 }
 
+.h2-big{
+    font-size: 36px;
+    line-height: 1;
+}
+
 h3 {
     font-family: 'Helvetica CE', Helvetica, sans-serif;
     text-rendering: optimizeLegibility;
