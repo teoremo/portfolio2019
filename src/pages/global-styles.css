@@ -10,8 +10,9 @@
 
 @import url('https://fonts.googleapis.com/css?family=Rosarivo:400,400i');
 
+html
 /* move scrollbar out of page*/
-html {
+ {
     overflow: scroll;
     overflow-x: hidden;
 }
@@ -23,6 +24,7 @@ html {
 ::-webkit-scrollbar-thumb {
     background: #FF0000;
 }
+
 
 body {
     font-family: 'Rosarivo', serif;
@@ -84,6 +86,15 @@ h4 {
     line-height: 1;
     color: #8B8B8B;
     font-weight: 400;
+}
+
+.background-svg{
+    position: absolute;
+    z-index:1;
+    width:100%;
+    object-fit: cover;
+    
+    
 }
 
 /*Projects*/

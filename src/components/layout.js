@@ -16,7 +16,7 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <>
-          <div>
+          <div className="layout">
           <main>{children}</main>
           <footer class="footer">
             <a class="footer__email" href=" ">Email</a>

@@ -15,6 +15,7 @@ const IndexPage = (props) => (
   <Layout>
     <SEO title="Tile of this page" keywords={[`gatsby`, `application`, `react`]} />
 
+
     <div className="homepage__hero-wrapper">
         
      <div className="homepage__hero__group">
@@ -25,17 +26,15 @@ const IndexPage = (props) => (
         <div  className="homepage__hero__h2">
         <h2>This is a selection of work I’ve done over the years</h2>
         </div>
-        
-
       </div>
-     
-      
-     </div>
-     <div className="arrow-down">
-        <img  src={require('../images/arrow-down.svg')} alt="arrow pointing down" ></img>
-        </div>
-     <div className="homepage__page">
-     
+    </div>
+    
+    <div className="arrow-down">
+      <img  src={require('../images/arrow-down.svg')} alt="arrow pointing down"></img>
+    </div>
+
+    <div className="homepage__page">
+    
      <Link to="/shelter/">
      <Cardhomepage
       year="2017"
@@ -90,19 +89,16 @@ const IndexPage = (props) => (
       description="Including an award-winning app, editorial work, and a co-founded screenprint & graphic design studio in Milan, Italy."
       arrow={require('../images/arrow-down.svg') }/>
       </Link>
-
-     </div>
-
-     <div className="homepage__page">
-      <p className="bio">I’m a hybrid designer – which means my profile is adaptable to the needs of the team.</p>
-      <img className="avatar" src={require('../images/avatar.jpg')} alt="Matteo Remondini" ></img>
-      <a href="www.teoremo.com">
-        <p className="downloadtext">Download the resume</p>
-        <img className="downloadicon" src={require('../images/downloadicon.svg')} alt="download icon"></img> 
-      </a>
-     </div>
-
-
+      </div>
+     
+      <div className="homepage__page">
+        <p className="bio">I’m a hybrid designer – which means my profile is adaptable to the needs of the team.</p>
+        <img className="avatar" src={require('../images/avatar.jpg')} alt="Matteo Remondini" ></img>
+        <a href="www.teoremo.com">
+          <p className="downloadtext">Download the resume</p>
+          <img className="downloadicon" src={require('../images/downloadicon.svg')} alt="download icon"></img> 
+        </a>
+      </div>
 
   </Layout>
 )
