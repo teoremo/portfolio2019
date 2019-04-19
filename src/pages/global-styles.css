@@ -88,12 +88,18 @@ h4 {
     font-weight: 400;
 }
 
-.background-svg{
+.background{
     position: absolute;
-    z-index:1;
     width:100%;
-    display: flex; justify-content: center;
+    margin:-5vw auto;
+justify-items: center;
+max-width:4100px;
+}
+
+.background-svg{
     
+
+    position:relative;
 }
 
 /*Projects*/
