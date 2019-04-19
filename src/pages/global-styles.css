@@ -91,16 +91,19 @@ h4 {
 .background{
     position: absolute;
     width:100%;
-    margin:-5vw auto;
-justify-items: center;
-max-width:4100px;
+    margin:-200px auto;
+
 }
 
 .background-svg{
-    
-
-    position:relative;
+    width:100%;
+        position: relative;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
 }
+
 
 /*Projects*/
 
