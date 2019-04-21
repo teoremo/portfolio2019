@@ -97,9 +97,9 @@ h4 {
 }
 
 .background-svg{
-    width:100%;
     position: relative;
-    margin-top:-400px;
+    height: 100%;
+
     left: 50%;
     -webkit-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
