@@ -157,7 +157,7 @@ export default props => (
             After considering a wide range of visions, our team decided to focus
             on &lsquo;Providing a tailored on-demand service that matches
             users&rsquo; needs with mobile-hairdressers&rsquo; skills and
-            personality&rsquo;.">
+            personality&rsquo;.
           </p>
         </div>
       </div>

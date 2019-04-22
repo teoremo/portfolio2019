@@ -134,7 +134,7 @@ export default props => (
       <Commsprj
         yearlocation="2014 - Milano, Italy"
         category="Branding, Strategic Design"
-        team="Communication Designer,  Chef, Quality & Food safety technician, Catering consultant"
+        team="Communication Designer,  Chef, Quality & Food safety technician, Fine Dining consultant"
         h2="Saporita’"
         p={
           <p>
@@ -165,7 +165,7 @@ export default props => (
       <Commsprj
         h2="Sacremstudio: screenprinting & graphic design."
         yearlocation="2012 - 2015 - Milano, Italy"
-        category="Interaction design, visual design, screenprinting"
+        category="Interaction Design, Visual Design, Screenprinting"
         team="Communication designers x 4"
         p={
           <p>

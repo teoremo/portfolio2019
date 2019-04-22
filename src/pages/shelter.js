@@ -88,9 +88,9 @@ export default props => (
             element of Services&rsquo; division long term strategy.
           </p>
         }
-        yearlocation="2018, London"
-        category="Service Design"
-        team="service designers"
+        yearlocation="2017 : 2019 - London, Uk"
+        category="Service Design, Strategic Design, UX Design"
+        team="Service Designer, Product Owner, Lead UX Designer, Developer"
         logo={require("../images/shelterlogo.png")}
       />
       <Img
@@ -162,7 +162,7 @@ export default props => (
           </p>
         </div>
         <Cardshelter
-          cardimage={require("../images/cardimgdraft1.png")}
+          cardimage={require("../images/shelter-3.png")}
           year="2017"
           location="London, UK"
           title="Streamlining advice journeys"
@@ -170,7 +170,7 @@ export default props => (
           arrow={require("../images/arrow-down.svg")}
         />
         <Cardshelter
-          cardimage={require("../images/cardimgdraft2.png")}
+          cardimage={require("../images/shelter-4.png")}
           year="2018"
           location="London, UK"
           title="Improving our helpline to reach more people in urgent need"
@@ -178,7 +178,7 @@ export default props => (
           arrow={require("../images/arrow-down.svg")}
         />
         <Cardshelter
-          cardimage={require("../images/cardimgdraft3.png")}
+          cardimage={require("../images/shelter-5.png")}
           year="2018"
           location="London, UK"
           title="Reshaping our Local Advice Services offering"

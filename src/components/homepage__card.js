@@ -11,7 +11,7 @@ const Cardhomepage = props => (
         <h2>{props.title}</h2>
         <h3>{props.categories}</h3>
         <p>{props.description}</p>
-        <img className="arrow-right" src={props.arrow}></img>
+        <img className="homepage__card__arrow" src={props.arrow}></img>
         
     </div>
     </a>

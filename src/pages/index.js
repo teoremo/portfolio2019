@@ -131,7 +131,7 @@ const IndexPage = props => (
       <div className="homepage__page">
         <Link to="/shelter/">
           <Cardhomepage
-            year="2017"
+            year="2017 : 2019"
             location="London, UK"
             cardlogo={require("../images/shelterlogo.png")}
             title="Shelter"
@@ -155,7 +155,7 @@ const IndexPage = props => (
                 more
               </p>
             }
-            arrow={require("../images/arrow-down.svg")}
+            arrow={require("../images/arrow-ext-link.svg") }
           />
         </Link>
 
@@ -192,7 +192,7 @@ const IndexPage = props => (
 
         <Link to="/commdesign/">
           <Cardhomepage
-            year="2012-2014"
+            year="2012 : 2014"
             location="Milano, Italy"
             cardlogo={require("../images/logo-appstore.png")}
             title="Other stuff"
@@ -214,12 +214,14 @@ const IndexPage = props => (
           alt="Matteo Remondini"
         />
         <a href="www.teoremo.com">
+          <div className="homepage__download-cv">
           <p className="downloadtext">Download the resume</p>
           <img
             className="downloadicon"
             src={require("../images/downloadicon.svg")}
             alt="download icon"
           />
+          </div>
         </a>
       </div>
     </Layout>

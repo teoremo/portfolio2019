@@ -86,7 +86,7 @@ export default props => (
             my MSc in Product-Service System Design
           </p>
         }
-        yearlocation="2015 - Milan, Italy"
+        yearlocation="2015 - Milano, Italy"
         category="Service Design, Business Design, Industrial Design"
         team="Service Designers x5"
         logo={require("../images/gimble-logo.png")}
