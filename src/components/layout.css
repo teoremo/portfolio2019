@@ -3,6 +3,7 @@
     z-index:2;
     overflow:hidden;
 }
+
 .footer {
     display:grid;
     width:85vw;
@@ -16,11 +17,21 @@
 
 .footer__email{
     grid-column:2/3;
+    text-decoration: none;
 }
 
 .footer__linkedin{
     grid-column:3/4;
+    text-decoration: none;
+    text-shadow: none;
+
 }
+
+.footer__email:hover,
+.footer__linkedin:hover {
+    text-decoration: underline;
+}
+
 
 .footer__love-text{
     grid-column:1/4;

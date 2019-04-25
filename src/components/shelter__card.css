@@ -15,11 +15,17 @@
 
 
 .shelter__card:hover {
-    transition: all 0.2s ease;
     box-shadow: 0px 10px 70px rgba(0, 0, 0, 0.05);
     outline: 1px solid black;
+    transition: all 0.4s cubic-bezier(0.77, 0, 0.175, 1);
+
 }
 
+.shelter__card:active {    
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.05);
+    outline: 2px solid black;
+    background-color:rgba(0, 0, 0, 0.01);
+}
 
 .shelter__card__arrow {
     float:right;
@@ -29,11 +35,13 @@
     grid-column:2/3;
     grid-row:1/2;
     transform: rotate(225deg);
+    transition: all 0.4s cubic-bezier(0.77, 0, 0.175, 1);
 }
 
 .shelter__card:hover .shelter__card__arrow {
-    transition: all 0.6s cubic-bezier(0.77, 0, 0.175, 1);
     margin:0 0 0 auto;
+    transition: all 0.4s cubic-bezier(0.77, 0, 0.175, 1);
+
 }
 
 .shelter__card__year{
@@ -56,12 +64,18 @@
 }
 
 .shelter__card h2 {
+    
     margin:0;
     padding:20px 0 20px 0;
     grid-row: 3/4;
     grid-column: 2/3;
-    text-decoration: underline;
+    text-decoration: none;
 }
+
+.shelter__card:hover h2 {
+    text-decoration:underline;
+}
+
 
 .shelter__card p {
     font-family: 'Rosarivo', serif;

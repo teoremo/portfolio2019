@@ -35,6 +35,7 @@ body {
   padding: 0;
 }
 
+
 a {
   font-family: "Helvetica CE", Helvetica, sans-serif;
   font-weight: bold;
@@ -180,6 +181,8 @@ h4 {
   position: absolute;
 }
 
+
+
 .homepage__hero__h1 {
   font-size: 30px;
   line-height: 1;
@@ -204,6 +207,46 @@ h4 {
   position: relative;
   max-width: 30px;
   margin: 5vh auto;
+}
+
+.homepage__hero-wrapper{
+  position:relative;
+  height:70vh;
+}
+
+.homepage__hero-group {
+  display:grid;
+  height: 30vh;
+  width: 85%;
+  max-width: 672px;
+  max-height:480px;
+  margin:auto;
+  vertical-align: middle;
+  position: relative;
+  grid-template-rows:auto 20fr auto;
+  row-gap: 5%;
+}
+
+.homepage__hero__h1 {
+  font-size: 30px;
+  line-height: 1;
+  margin:0 0;
+  grid-row:1/2;
+}
+
+.homepage__hero__p {
+  max-width: 492px;
+  margin: auto;
+  
+  grid-row:2/3;
+}
+
+.homepage__hero__h2 {
+  max-width: 400px;
+  margin-left: auto;
+  text-align: right;
+  
+  grid-row:3/4;
 }
 
 .homepage__page {
@@ -237,17 +280,22 @@ h4 {
   
 }
 .homepage__download-cv{
+  transition: all 0.4s cubic-bezier(0.77, 0, 0.175, 1);
+  outline: 1px solid white;
+
   width: 200px;
   padding:20px;
   margin:auto;
 }
 .homepage__download-cv:hover {    
-  transition: all 0.2s ease;
+  transition: all 0.4s cubic-bezier(0.77, 0, 0.175, 1);
   box-shadow: 0px 10px 70px rgba(0, 0, 0, 0.05);
   outline: 1px solid black;
 }
 
 .downloadicon {
+  transition: all 0.4s cubic-bezier(0.77, 0, 0.175, 1);
+
   display: block;
   margin: 0 auto 5px;
 }
@@ -261,10 +309,16 @@ h4 {
   display: inline-block;
   width: 130px;
   margin: 0 auto 10px auto;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
-.background-index {
+.homepage__download-cv:hover .downloadtext{
+  
+  text-decoration:underline;
+} 
+
+
+.frontground-index {
   z-index: 3;
   width: 100%;
   position: absolute;
