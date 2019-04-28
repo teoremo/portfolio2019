@@ -83,7 +83,6 @@ const IndexPage = props => (
             title="Shelter"
             categories="Service strategy + projects"
             description="Helping Shelter become a Human Centred organisation, focusing on the housing advice services given to millions of people."
-            arrow={require("../images/arrow-down.svg")}
           />
         </Link>
 
@@ -100,7 +99,7 @@ const IndexPage = props => (
                 more
               </p>
             }
-            arrow={require("../images/arrow-ext-link.svg") }
+            arrow_type="ext"
           />
         </Link>
 
@@ -112,7 +111,7 @@ const IndexPage = props => (
             title="Flair"
             categories="User research + Service Design"
             description="Would a “Uber for hairdressers” work in London? An innovative proposition for a funded venture active in the beauty sector."
-            arrow={require("../images/arrow-down.svg")}
+
           />
         </Link>
 
@@ -131,7 +130,6 @@ const IndexPage = props => (
                 Product-Service System Design
               </p>
             }
-            arrow={require("../images/arrow-down.svg")}
           />
         </Link>
 
@@ -143,30 +141,31 @@ const IndexPage = props => (
             title="Other stuff"
             categories="Communication design projects"
             description="Including an award-winning app, editorial work, and a co-founded screenprint & graphic design studio in Milan, Italy."
-            arrow={require("../images/arrow-down.svg")}
           />
         </Link>
       </div>
 
       <div className="homepage__page">
-        <p className="bio">
+        <p className="about__text">
           I’m a hybrid designer – which means my profile is adaptable to the
           needs of the team.
         </p>
         <Img
-          className="avatar"
+          className="about__avatar"
           fluid={props.data.imageAvatar.childImageSharp.fluid}
         />
-        <a href="www.teoremo.com">
-          <div className="homepage__download-cv">
-          <p className="downloadtext">Download the resume</p>
+        
+          
+          <a className="download-cv" href="www.teoremo.com">
+          <p className="download-cv__text">Download the resume</p>
           <img
-            className="downloadicon"
+            className="download-cv__icon"
             src={require("../images/downloadicon.svg")}
             alt="download icon"
           />
-          </div>
-        </a>
+          </a>
+          
+        
       </div>
     </Layout>
   </>

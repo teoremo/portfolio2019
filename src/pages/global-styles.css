@@ -45,11 +45,6 @@ a {
   text-decoration: none;
 }
 
-.inlink {
-  font-weight: 600;
-  text-decoration: underline;
-}
-
 h1 {
   font-family: "Helvetica CE", Helvetica, sans-serif;
   text-rendering: optimizeLegibility;
@@ -103,6 +98,14 @@ h4 {
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
+}
+
+.frontground-index {
+  z-index: 3;
+  width: 100%;
+  position: absolute;
+  pointer-events: none;
+  top:0;
 }
 
 /*Projects*/
@@ -169,60 +172,17 @@ h4 {
   position: relative;
 }
 
-.homepage__hero__group {
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  margin: 0;
-  width: 85%;
-  max-width: 672px;
-  position: absolute;
-}
-
-
-
-.homepage__hero__h1 {
-  font-size: 30px;
-  line-height: 1;
-  margin-left: 0;
-  margin-top: 0;
-}
-
-.homepage__hero__p {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  max-width: 492px;
-  margin: auto;
-}
-
-.homepage__hero__h2 {
-  max-width: 400px;
-  margin-left: auto;
-  text-align: right;
-}
-
-.arrow-down {
-  position: relative;
-  max-width: 30px;
-  margin: 5vh auto;
-}
-
-.homepage__hero-wrapper{
-  position:relative;
-  height:70vh;
-}
-
 .homepage__hero-group {
   display:grid;
-  height: 30vh;
   width: 85%;
   max-width: 672px;
   max-height:480px;
   margin:auto;
   vertical-align: middle;
-  position: relative;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   grid-template-rows:auto 20fr auto;
   row-gap: 5%;
 }
@@ -249,6 +209,12 @@ h4 {
   grid-row:3/4;
 }
 
+.arrow-down {
+  position: relative;
+  max-width: 30px;
+  margin: 5vh auto;
+}
+
 .homepage__page {
   z-index: 2;
   overflow: hidden;
@@ -259,71 +225,69 @@ h4 {
   position: relative;
   padding: 60px 0 60px 0;
   box-shadow: 0px 10px 70px rgba(0, 0, 0, 0.05);
-  text-align: center;
 }
 
-.bio {
+.about__text {
   width: 80%;
   margin: 20px auto 60px auto;
   text-align: center;
 }
 
-.avatar {
+.about__avatar {
   display: block;
   margin: 0 auto 60px;
   width: 30vw;
   max-width: 300px;
+  min-width:200px;
   height: 30vw;
-  max-width: 300px;
   max-height: 300px;
+  min-height:200px;
   border-radius: 50%;
-  
 }
-.homepage__download-cv{
-  transition: all 0.4s cubic-bezier(0.77, 0, 0.175, 1);
-  outline: 1px solid white;
 
+.download-cv{
+  text-align: center;
   width: 200px;
   padding:20px;
   margin:auto;
+  display:block;
 }
-.homepage__download-cv:hover {    
-  transition: all 0.4s cubic-bezier(0.77, 0, 0.175, 1);
+
+.download-cv:hover {    
   box-shadow: 0px 10px 70px rgba(0, 0, 0, 0.05);
   outline: 1px solid black;
+  transition: all 0.4s cubic-bezier(0.77, 0, 0.175, 1);
 }
 
-.downloadicon {
-  transition: all 0.4s cubic-bezier(0.77, 0, 0.175, 1);
-
-  display: block;
-  margin: 0 auto 5px;
+.download-cv:active {    
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.05);
+  outline: 2px solid black;
+  background-color:rgba(0, 0, 0, 0.01);
 }
 
-.homepage__download-cv:hover .downloadicon{
-  transition: all 0.4s cubic-bezier(0.77, 0, 0.175, 1);
-  margin: 5px auto 0;
-} 
-
-.downloadtext {
+.download-cv__text {
   display: inline-block;
   width: 130px;
   margin: 0 auto 10px auto;
   text-decoration: none;
 }
 
-.homepage__download-cv:hover .downloadtext{
-  
+.download-cv:hover .download-cv__text {
   text-decoration:underline;
 } 
 
-
-.frontground-index {
-  z-index: 3;
-  width: 100%;
-  position: absolute;
-  pointer-events: none;
+.download-cv__icon {
+  display: block;
+  margin: 0 auto 5px;
+  transition: all 0.4s cubic-bezier(0.77, 0, 0.175, 1);
 }
+
+.download-cv:hover .download-cv__icon{
+  margin: 5px auto 0;
+  transition: all 0.4s cubic-bezier(0.77, 0, 0.175, 1);
+} 
+
+
 
 /*flair*/
 

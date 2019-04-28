@@ -1,5 +1,9 @@
 - check gatsby.js before publishing
-- add     letter-spacing: 0.5em; animation to have letter composing the website 
+- img alternates
+- img rendering
+- page titles
+- SEO plugin
+- add     letter-spacing: 0.5em; animation to have letter composing the website (see google glitch avengers)
 - cursore?    cursor: url(../images/cursor2.png), auto;
 
 <div className="background">

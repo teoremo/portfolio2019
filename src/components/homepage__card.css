@@ -6,8 +6,8 @@
     position: relative;
     margin: 0 auto 60px;
     padding: 50px 7% 50px 7%;
-    grid-template-columns: minmax(auto,595px) 75px;
-    grid-template-rows: 26px 26px auto auto auto 25px;
+    grid-template-columns: auto 75px;
+    grid-template-rows: 25px 15px auto auto auto 25px;
     outline: 1px solid white;
     transition: all 0.4s cubic-bezier(0.77, 0, 0.175, 1);
 }
@@ -26,7 +26,7 @@
     background-color:rgba(0, 0, 0, 0.01);
 }
 
-.homepage__card__arrow {
+.homepage__card__arrow_right {
     width:25px;
     height:25px;
     margin:0 10px 0 auto;
@@ -36,10 +36,27 @@
     transition: all 0.4s cubic-bezier(0.77, 0, 0.175, 1);
 }
 
-.homepage__card:hover .homepage__card__arrow {
+.homepage__card:hover .homepage__card__arrow_right {
     margin:0 0 0 auto;
     transition: all 0.4s cubic-bezier(0.77, 0, 0.175, 1);
 }
+
+.homepage__card__arrow_ext {
+    width:35px;
+    height:35px;
+    margin:10px 10px 10px auto;
+    grid-column-start:2;
+    grid-row:6/7;
+    transform: rotate(270deg);
+    outline:none;
+    transition: all 0.4s cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.homepage__card:hover .homepage__card__arrow_ext {
+    margin:0 0 0 auto;
+    transition: all 0.4s cubic-bezier(0.77, 0, 0.175, 1);
+}
+
 
 .homepage__card__logo{
     width:100%;
@@ -83,7 +100,7 @@
 
 .homepage__card h3 {
     margin:0;
-    padding-bottom:30px;
+    padding-bottom:20px;
     grid-column:1/3;
     grid-row: 4/5;
     text-decoration: none;
