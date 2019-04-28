@@ -81,9 +81,9 @@ export default props => (
             interaction among them.
             <br />
             <br />
-            The project has been tutored and prototyped at Politecnico di
-            Milano, in partnership with IDEO and Stanford University as part of
-            my MSc in Product-Service System Design
+            My team and I carried out this project at Politecnico di Milano, in
+            partnership with IDEO and Stanford University as part of my MSc in
+            Product-Service System Design
           </p>
         }
         yearlocation="2015 - Milano, Italy"
@@ -99,7 +99,7 @@ export default props => (
 
       <div className="project__article__page">
         <div className="project__article__wrapper">
-        <Buttonback />
+          <Buttonback />
           <h2 className="project__article__h2">What's Gimble</h2>
           <p className="project__article__p">
             We were tasked with finding an unmet need in the sports industry and
@@ -111,8 +111,8 @@ export default props => (
             <br />
             <br />
             <strong>
-              We found that shyness is a pretty common factor among
-              &ldquo;lazy&rdquo; kids.
+              Our research showed that shyness is a common factor among kids who
+              are deemed to be&ldquo;lazy&rdquo;.
             </strong>
             <br />
             The period of most rapid development of motor behaviors and
@@ -121,9 +121,9 @@ export default props => (
             barriers and encourage physical activity during this important
             development phase. <br />
             <br />
-            By conducting research we found out that music is used by many
-            disciplines as a great tool of cohesion, to form ties and improve
-            the quality of interactions between people. <br />
+            By conducting additional research we found out that music is used by
+            many disciplines as a great tool of cohesion, to form ties and
+            improve the quality of interactions between people. <br />
             Looking at how might we use music to help young kids get into team
             sports, we came up with a range of concepts and we focused on one:
             Gimble.
@@ -152,7 +152,8 @@ export default props => (
             </strong>
             <br />
             <br />
-            The concept got prototyped and received the interests of Italian
+            We designed a prototype and tested it with kids and their family in
+            a group activity. The concept received the interests of Italian
             Psychomotricity Association teachers for exploring potential further
             developments.
           </p>

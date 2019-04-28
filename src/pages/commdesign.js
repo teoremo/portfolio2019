@@ -76,7 +76,7 @@ export default props => (
             Communication design stuff
           </h1>
           <p className="project__description__intro-para">
-            Before moving into Service Design, I’ve been involved in a number of
+            Before moving into Service Design, I was involved in a number of
             projects ranging from branding to editorial design, from
             screenprinting to illustration, from UI design to animation.
           </p>
@@ -106,8 +106,8 @@ export default props => (
         p={
           <p>
             Harika is a mobile app which guides customers to find everything
-            about hairdressing &ndash; stylists, saloons, haircuts and offered
-            services &ndash; in their local area. I've been responsible for the
+            about hairdressing &ndash; stylists, salons, haircuts and offered
+            services &ndash; in their local area. I was responsible for the
             brand&rsquo;s identity and the product&rsquo;s user experience +
             user interface. <br />
             <br />
