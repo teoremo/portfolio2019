@@ -4,16 +4,16 @@
     object-fit: cover;
     max-width: 1366px;
     max-height:760px;
-    margin: 3vw auto 0 auto;
-    width: 90vw;
-    height: 95vh;
+    margin: 0 auto 0 auto;
+    width: 100vw;
+    height: 100vh;
   }
   
 
 
 
 .project__description-page{
-    display:block;
+    display:grid;
     width:85vw;
     max-width:1134px;
     position: relative;
@@ -28,11 +28,9 @@
 
 
 .project__description__wrapper{
-    display:grid;
+    display:block;
     padding:60px 7.5vw;
-    grid-template-columns:70% 30%;
-    grid-template-rows:3;
-    grid-template-areas:"h1 h1" "text text" "details logo" 
+
     
 }
 
@@ -42,32 +40,57 @@
 
 .project__description__h1{
     grid-area: h1;
-    margin: 60px 0 0 0;
+    margin: 0;
 }
 
 .project__description__details{
-    grid-area: details;
+    margin:30px 0 0 0;
+width:60%;
 }
 
+.project__hero__logo-container{
+    min-height:100%;
+    margin:0 0 auto auto;
+    position:relative;
+}
 .project__hero__logo{
-    grid-area: logo;
-    width:150px;
-    height:auto;
-    justify-self:end;
-    align-self:end
+    width: 150px;
+    height: auto;
+    right: 0;
+    bottom: 0px;
+    position: absolute;
 }
 
 .project__description__year-location,
-.project__description__category,
-.project__description__team{
+.project__description__category{
     color:black;
     margin:-1rem 0 1.5rem;
 }
+
+.project__description__team{
+    color:black;
+    margin:-1rem 0 0;
+}
+
+
+
+
 
 
 @media only screen and (min-height: 1000px){
     .project__description-page{
 
 margin:-20vh auto 60px;
+
     }
+    
+    }
+
+    @media only screen and (max-width:500px){
+        .project__description__details{
+            width:100%;
+            }
+            .project__hero__logo{
+                display:none;
+            }
     }

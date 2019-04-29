@@ -101,7 +101,9 @@ export default props => (
 
       <div className="project__article__page">
         <div className="project__article__wrapper">
-          <Buttonback />
+        <div className="hide-responsive">
+        <Buttonback />
+        </div>
           <h2 className="project__article__h2">What's Gimble</h2>
           <p className="project__article__p">
             We were tasked with finding an unmet need in the sports industry and

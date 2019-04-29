@@ -15,8 +15,10 @@ const Projectintro = props => (
                     <h4 className="project__description__category">{props.category}</h4>
                     <h4 className="project__description__year-team-text">Team composition</h4>
                     <h4 className="project__description__team">{props.team}</h4>
-                </div>
+                    </div>
+                    <div className="project__hero__logo-container">
                 <img className="project__hero__logo" src={props.logo}></img>
+                </div>
             </div>  
             </div>
     </div>

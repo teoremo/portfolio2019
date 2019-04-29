@@ -101,7 +101,9 @@ export default props => (
 
       <div className="project__article__page">
         <div className="project__article__wrapper">
-          <Buttonback />
+        <div className="hide-responsive">
+        <Buttonback />
+        </div>
           <h2 className="project__article__h2">
             Some things I’ve learned at Shelter (so far)
           </h2>
