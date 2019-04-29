@@ -1,3 +1,17 @@
+
+.project__hero__img {
+    display: block;
+    object-fit: cover;
+    max-width: 1366px;
+    max-height:760px;
+    margin: 3vw auto 0 auto;
+    width: 90vw;
+    height: 95vh;
+  }
+  
+
+
+
 .project__description-page{
     display:block;
     width:85vw;
@@ -8,6 +22,10 @@
     margin:-40vh auto 60px;
  
 }
+
+
+
+
 
 .project__description__wrapper{
     display:grid;
@@ -24,7 +42,7 @@
 
 .project__description__h1{
     grid-area: h1;
-    margin: 5vh 0 0 0;
+    margin: 60px 0 0 0;
 }
 
 .project__description__details{
@@ -45,3 +63,11 @@
     color:black;
     margin:-1rem 0 1.5rem;
 }
+
+
+@media only screen and (min-height: 1000px){
+    .project__description-page{
+
+margin:-20vh auto 60px;
+    }
+    }

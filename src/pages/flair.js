@@ -65,14 +65,16 @@ export default props => (
           </defs>
         </svg>
       </div>
-      <div className="project__hero__img">
-        <Img fluid={props.data.imageCover.childImageSharp.fluid} />
-      </div>
+      
+        <Img className="project__hero__img" fluid={props.data.imageCover.childImageSharp.fluid}
+           />
+      
       <Projectintro
         image={
           <Img
             className="image-l"
             fluid={props.data.imageCover.childImageSharp.fluid}
+            
           />
         }
         h1="Flair. Hairstyling on-demand"
@@ -229,7 +231,7 @@ export const query = graphql`
 query {
     imageCover: file(relativePath: {eq: "flair-cover.jpg"}) {
       childImageSharp {
-        fluid {
+        fluid(maxWidth: 1100) {
           ...GatsbyImageSharpFluid
         }    
       } 

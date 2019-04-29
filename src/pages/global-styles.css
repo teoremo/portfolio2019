@@ -110,14 +110,6 @@ h4 {
 
 /*Projects*/
 
-.project__hero__img {
-  display: block;
-  object-fit: cover;
-  max-width: 1366px;
-  margin: 3vw auto 0 auto;
-  width: 90vw;
-  height: 95vh;
-}
 
 .project__article__wrapper {
   padding: 60px 7.5vw;
@@ -149,11 +141,13 @@ h4 {
 
 .image-s {
   max-width: 60vw;
+  max-width: 900px;
   margin: 0 auto 60px auto;
 }
 
 .image-m {
   max-width: 75vw;
+  max-width: 1140px;
   margin: 0 auto 60px auto;
 }
 
@@ -167,6 +161,7 @@ h4 {
 
 .homepage__hero-wrapper {
   height: 70vh;
+  max-height:900px;
   margin-top: 5vw;
   vertical-align: middle;
   position: relative;
@@ -334,3 +329,4 @@ h4 {
   padding: 0;
   color: #8b8b8b;
 }
+

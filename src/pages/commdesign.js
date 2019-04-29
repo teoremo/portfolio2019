@@ -66,9 +66,9 @@ export default props => (
           </defs>
         </svg>
       </div>
-      <div className="project__hero__img">
-        <Img fluid={props.data.imageCover.childImageSharp.fluid} />
-      </div>
+           
+      <Img className="project__hero__img" fluid={props.data.imageCover.childImageSharp.fluid}
+           />
 
       <div className="project__description-page">
         <div className="project__description__wrapper">

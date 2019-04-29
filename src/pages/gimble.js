@@ -65,9 +65,11 @@ export default props => (
         </svg>
       </div>
 
-      <div className="project__hero__img">
-        <Img fluid={props.data.imageCover.childImageSharp.fluid} />
-      </div>
+      
+      <Img className="project__hero__img" fluid={props.data.imageCover.childImageSharp.fluid}
+           />
+
+           
       <Projectintro
         h1="Gimble: introducing kids to team sports"
         p={
