@@ -133,10 +133,17 @@ export default props => (
         </div>
       </div>
 
-      <Img
-        className="image-l"
+
+      <Img className="image-l hide-responsive" 
+        
         fluid={props.data.imageTwo.childImageSharp.fluid}
       />
+
+      <Img className="image-l show-responsive" 
+        
+        fluid={props.data.imageTwoM.childImageSharp.fluid}
+      />
+
 
       <div className="project__article__page">
         <div className="project__article__wrapper">
@@ -230,6 +237,13 @@ export const query = graphql`
       }
     }
     imageTwo: file(relativePath: { eq: "shelter-2.jpg" }) {
+      childImageSharp {
+        fluid {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    } 
+    imageTwoM: file(relativePath: { eq: "m-shelter-2.png" }) {
       childImageSharp {
         fluid {
           ...GatsbyImageSharpFluid
