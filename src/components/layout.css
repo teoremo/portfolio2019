@@ -18,12 +18,14 @@
 .footer__email{
     grid-column:2/3;
     text-decoration: none;
+    font-weight: bold;
 }
 
 .footer__linkedin{
     grid-column:3/4;
     text-decoration: none;
     text-shadow: none;
+    font-weight: bold;
 
 }
 

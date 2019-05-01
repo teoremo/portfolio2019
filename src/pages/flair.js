@@ -7,7 +7,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import "./global-styles.css"
 import Projectintro from "../components/project__intro"
-import Buttonback from "../components/buttonback";
+import Buttonback from "../components/buttonback"
 
 export default props => (
   <>
@@ -65,16 +65,17 @@ export default props => (
           </defs>
         </svg>
       </div>
-      
-        <Img className="project__hero__img" fluid={props.data.imageCover.childImageSharp.fluid}
-           />
-      
+
+      <Img
+        className="project__hero__img"
+        fluid={props.data.imageCover.childImageSharp.fluid}
+      />
+
       <Projectintro
         image={
           <Img
             className="image-l"
             fluid={props.data.imageCover.childImageSharp.fluid}
-            
           />
         }
         h1="Flair. Hairstyling on-demand"
@@ -109,9 +110,9 @@ export default props => (
 
       <div className="project__article__page">
         <div className="project__article__wrapper">
-        <div className="hide-responsive">
-        <Buttonback />
-        </div>
+          <div className="hide-responsive">
+            <Buttonback />
+          </div>
           <h2 className="project__article__h2">
             Tailoring a service around people
           </h2>
@@ -230,48 +231,48 @@ export default props => (
 )
 
 export const query = graphql`
-query {
-    imageCover: file(relativePath: {eq: "flair-cover.jpg"}) {
+  query {
+    imageCover: file(relativePath: { eq: "flair-cover.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 1100) {
           ...GatsbyImageSharpFluid
-        }    
-      } 
-    } 
-    imageOne: file(relativePath: {eq: "flair-1.png"}) {
+        }
+      }
+    }
+    imageOne: file(relativePath: { eq: "flair-1.png" }) {
       childImageSharp {
         fluid {
           ...GatsbyImageSharpFluid
-        }    
-      }  
-    }
-    imageTwo: file(relativePath: {eq: "flair-2.jpg"}) {
-          childImageSharp {
-            fluid {
-              ...GatsbyImageSharpFluid
-        }      
+        }
       }
     }
-    imageThree: file(relativePath: {eq: "flair-3.png"}) {
-        childImageSharp {
-          fluid {
-            ...GatsbyImageSharpFluid
-        }      
-      }
-    }
-    imageFour: file(relativePath: {eq: "flair-4.jpg"}) {
-        childImageSharp {
+    imageTwo: file(relativePath: { eq: "flair-2.jpg" }) {
+      childImageSharp {
         fluid {
-            ...GatsbyImageSharpFluid
-        }      
+          ...GatsbyImageSharpFluid
+        }
       }
     }
-    imageFive: file(relativePath: {eq: "flair-5.jpg"}) {
-        childImageSharp {
+    imageThree: file(relativePath: { eq: "flair-3.png" }) {
+      childImageSharp {
         fluid {
-            ...GatsbyImageSharpFluid
-        }      
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    imageFour: file(relativePath: { eq: "flair-4.jpg" }) {
+      childImageSharp {
+        fluid {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    imageFive: file(relativePath: { eq: "flair-5.jpg" }) {
+      childImageSharp {
+        fluid {
+          ...GatsbyImageSharpFluid
+        }
       }
     }
   }
-  `
+`

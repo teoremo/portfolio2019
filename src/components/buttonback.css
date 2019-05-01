@@ -12,6 +12,7 @@
 
 .button-back__text {
     margin:0;
+    font-weight: bold;
 }
 .button-back__arrow_left {
     float:left;

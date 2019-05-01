@@ -61,9 +61,9 @@ const IndexPage = props => (
               and intrigued by anything that is about change for the better.
             </p>
           </div>
-          <div className="homepage__hero__h2">
-            <h2>This is a selection of work I’ve done over the years</h2>
-          </div>
+        
+            <h2 className="homepage__hero__h2">This is a selection of work I’ve done over the years</h2>
+          
         </div>
       </div>
 
@@ -95,8 +95,9 @@ const IndexPage = props => (
             categories="Research"
             description={
               <p>
-                A snapshot of what Service Design & Design Thinking are.<br/> Includes interviews with Livework, IDEO, Facebook, and
-                more
+                A snapshot of what Service Design & Design Thinking are.
+                <br /> Includes interviews with Livework, IDEO, Facebook, and
+                more.
               </p>
             }
             arrow_type="ext"
@@ -111,7 +112,6 @@ const IndexPage = props => (
             title="Flair"
             categories="User research + Service Design"
             description="Would a “Uber for hairdressers” work in London? An innovative proposition for a funded venture active in the beauty sector."
-
           />
         </Link>
 
@@ -154,18 +154,15 @@ const IndexPage = props => (
           className="about__avatar"
           fluid={props.data.imageAvatar.childImageSharp.fluid}
         />
-        
-          
-          <a className="download-cv" href="www.teoremo.com">
+
+        <a className="download-cv" href="www.teoremo.com">
           <p className="download-cv__text">Download the resume</p>
           <img
             className="download-cv__icon"
             src={require("../images/downloadicon.svg")}
             alt="download icon"
           />
-          </a>
-          
-        
+        </a>
       </div>
     </Layout>
   </>
@@ -174,13 +171,13 @@ const IndexPage = props => (
 export default IndexPage
 
 export const query = graphql`
-query {
-    imageAvatar: file(relativePath: {eq: "avatar.jpg"}) {
-        childImageSharp {
+  query {
+    imageAvatar: file(relativePath: { eq: "avatar.jpg" }) {
+      childImageSharp {
         fluid {
-            ...GatsbyImageSharpFluid
-        }      
+          ...GatsbyImageSharpFluid
+        }
       }
     }
   }
-  `
+`
