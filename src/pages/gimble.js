@@ -65,11 +65,11 @@ export default props => (
         </svg>
       </div>
 
-      
-      <Img className="project__hero__img" fluid={props.data.imageCover.childImageSharp.fluid}
-           />
+      <Img
+        className="project__hero__img"
+        fluid={props.data.imageCover.childImageSharp.fluid}
+      />
 
-           
       <Projectintro
         h1="Gimble: introducing kids to team sports"
         p={
@@ -101,9 +101,9 @@ export default props => (
 
       <div className="project__article__page">
         <div className="project__article__wrapper">
-        <div className="hide-responsive">
-        <Buttonback />
-        </div>
+          <div className="hide-responsive">
+            <Buttonback />
+          </div>
           <h2 className="project__article__h2">What's Gimble</h2>
           <p className="project__article__p">
             We were tasked with finding an unmet need in the sports industry and

@@ -1,96 +1,81 @@
-
 .project__hero__img {
-    display: block;
-    object-fit: cover;
-    max-width: 1366px;
-    max-height:760px;
-    margin: 0 auto 0 auto;
-    width: 100vw;
-    height: 100vh;
-  }
-  
-
-
-
-.project__description-page{
-    display:grid;
-    width:85vw;
-    max-width:1134px;
-    position: relative;
-    box-shadow: 0px 10px 70px rgba(0, 0, 0, 0.05);
-    background-color:white;
-    margin:-40vh auto 60px;
- 
+  display: block;
+  object-fit: cover;
+  max-width: 1366px;
+  max-height: 760px;
+  margin: 0 auto 0 auto;
+  width: 100vw;
+  height: 100vh;
 }
 
-
-
-
-
-.project__description__wrapper{
-    display:block;
-    padding:60px 7.5vw;
-
-    
+.project__description-page {
+  display: grid;
+  width: 85vw;
+  max-width: 1134px;
+  position: relative;
+  box-shadow: 0px 10px 70px rgba(0, 0, 0, 0.05);
+  background-color: white;
+  margin: -40vh auto 60px;
 }
 
-.project__description__intro-para{
-    grid-area: text;
+.project__description__wrapper {
+  display: block;
+  padding: 60px 7.5vw;
 }
 
-.project__description__h1{
-    grid-area: h1;
-    margin: 0;
+.project__description__intro-para {
+  grid-area: text;
 }
 
-.project__description__details{
-    margin:30px 0 0 0;
-width:60%;
+.project__description__h1 {
+  grid-area: h1;
+  margin: 0;
 }
 
-.project__hero__logo-container{
-    min-height:100%;
-    margin:0 0 auto auto;
-    position:relative;
+.project__description__details {
+  margin: 30px 0 0 0;
+  width: 60%;
 }
-.project__hero__logo{
-    width: 150px;
-    height: auto;
-    right: 0;
-    bottom: 0px;
-    position: absolute;
+
+.project__hero__logo-container {
+  min-height: 100%;
+  margin: 0 0 auto auto;
+  position: relative;
+}
+.project__hero__logo {
+  width: 150px;
+  height: auto;
+  right: 0;
+  bottom: 0px;
+  position: absolute;
 }
 
 .project__description__year-location,
-.project__description__category{
-    color:black;
-    margin:-1rem 0 1.5rem;
+.project__description__category {
+  color: black;
+  margin: -1rem 0 1.5rem;
 }
 
-.project__description__team{
-    color:black;
-    margin:-1rem 0 0;
+.project__description__team {
+  color: black;
+  margin: -1rem 0 0;
 }
 
+@media only screen and (min-height: 1000px) {
+  .project__description-page {
+    margin: -20vh auto 60px;
+  }
+}
 
-
-
-
-
-@media only screen and (min-height: 1000px){
+@media only screen and (max-width: 500px) {
     .project__description-page{
-
-margin:-20vh auto 60px;
-
+        
+        width:90vw;
     }
-    
-    }
-
-    @media only screen and (max-width:500px){
-        .project__description__details{
-            width:100%;
-            }
-            .project__hero__logo{
-                display:none;
-            }
-    }
+  .project__description__details {
+    width: 100%;
+  }
+  .project__hero__logo {
+    display: none;
+  }
+}

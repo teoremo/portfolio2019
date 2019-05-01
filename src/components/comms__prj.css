@@ -1,24 +1,24 @@
-.comms__project__description-page{
-    display:block;
-    width:85vw;
-    max-width:1134px;
-    position: relative;
-    box-shadow: 0px 10px 70px rgba(0, 0, 0, 0.05);
-    background-color:white;
-    margin:0 auto 60px;
+.comms__project__description-page {
+  display: block;
+  width: 85vw;
+  max-width: 1134px;
+  position: relative;
+  box-shadow: 0px 10px 70px rgba(0, 0, 0, 0.05);
+  background-color: white;
+  margin: 0 auto 60px;
 }
 
-.comms__project__description__wrapper{
-    padding:60px 7.5vw;
- }
+.comms__project__description__wrapper {
+  padding: 60px 7.5vw;
+}
 
 .comms__project__description__year-location,
-.comms__project__description__category{
-    color:black;
-    margin:-1rem 0 1.5rem;
+.comms__project__description__category {
+  color: black;
+  margin: -1rem 0 1.5rem;
 }
 
-.comms__project__description__team{
-    color:black;
-    margin: -1rem 0 40px;
+.comms__project__description__team {
+  color: black;
+  margin: -1rem 0 40px;
 }
