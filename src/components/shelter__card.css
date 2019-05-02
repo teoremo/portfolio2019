@@ -116,7 +116,7 @@
 }
 
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 500px){
     .shelter__card{  
     display: grid;
     width: 80%;
@@ -129,6 +129,11 @@
     'title' 
     'paragraph' ;
     grid-column-gap: 3vw;
+    margin: 0 auto 40px auto;
 
 }
+
+    .shelter__card p {
+        font-size: calc(16px + 8 * ((100vw - 250px) / 250));
+    }
 }

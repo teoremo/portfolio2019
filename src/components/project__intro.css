@@ -33,7 +33,7 @@
 }
 
 .project__description__details {
-  margin: 30px 0 0 0;
+  margin: 40px 0 0 0;
   width: 60%;
 }
 
@@ -68,14 +68,23 @@
 }
 
 @media only screen and (max-width: 500px) {
-    .project__description-page{
-        
-        width:90vw;
-    }
+  .project__description-page {
+    width: 90vw;
+  }
+
+  .project__description-wrapper {
+    padding: 40px 7.5vw;
+  }
+  
+  .project__description__intro-para{
+    line-height: 1.8;
+    font-size: calc(16px + 8 * ((100vw - 250px) / 250));
+  }
   .project__description__details {
     width: 100%;
   }
   .project__hero__logo {
     display: none;
   }
+
 }
