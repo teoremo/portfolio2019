@@ -3,14 +3,16 @@
 - consider 1px border for images
 - consider typography size: makes it longer to read;
 - consider three cards in one line;
+- consider download/cv topbar;
 
 - sort animations slow rendering
 - clean code
 - img alternates
-- img rendering
 - page titles
 - SEO plugin
-- check gatsby.js file before publishing
+- 404 page
+- check gatsby.js file before publishing#
+
 - add     letter-spacing: 0.5em; animation to have letter composing the website (see google glitch avengers)
 - add animated background
 

@@ -17,10 +17,12 @@
   color: black;
   margin: -1rem 0 1.5rem;
   text-transform: none;
+  font-size: 16px;
 }
 
 .comms__project__description__team {
   color: black;
   margin: -1rem 0 40px;
   text-transform: none;
+  font-size: 16px;
 }

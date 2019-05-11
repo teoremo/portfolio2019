@@ -110,9 +110,7 @@ export default props => (
 
       <div className="project__article__page">
         <div className="project__article__wrapper">
-          <div className="hide-responsive">
-            <Buttonback />
-          </div>
+ 
           <h2 className="project__article__h2">
             Tailoring a service around people
           </h2>
