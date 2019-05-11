@@ -72,7 +72,7 @@
 }
 
 .shelter__card h2 {
-    
+    font-weight:700;
     margin:0;
     padding:20px 0 20px 0;
     grid-row: 3/4;
@@ -90,7 +90,7 @@
     font-family: 'Rosarivo', serif;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
-    font-size:20px;
+ 
     font-weight:400;
     margin:0;
     padding-bottom:20px;
@@ -130,7 +130,4 @@
  
 }
 
-    .shelter__card p {
-        font-size: calc(16px + 8 * ((100vw - 250px) / 250));
-    }
 }

@@ -54,11 +54,16 @@
 .project__description__category {
   color: black;
   margin: -1rem 0 1.5rem;
+  text-transform: none;
+  font-size: 16px;
 }
 
 .project__description__team {
   color: black;
   margin: -1rem 0 0;
+  text-transform: none;
+  font-size: 16px;
+
 }
 
 @media only screen and (min-height: 1000px) {
@@ -76,10 +81,7 @@
     padding: 40px 7.5vw;
   }
   
-  .project__description__intro-para{
-    line-height: 1.8;
-    font-size: calc(16px + 8 * ((100vw - 250px) / 250));
-  }
+
   .project__description__details {
     width: 100%;
   }
