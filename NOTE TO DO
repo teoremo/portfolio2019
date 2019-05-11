@@ -1,10 +1,12 @@
-- check gatsby.js before publishing
+- sort animations slow rendering
+- clean code
 - img alternates
 - img rendering
 - page titles
 - SEO plugin
+- check gatsby.js file before publishing
 - add     letter-spacing: 0.5em; animation to have letter composing the website (see google glitch avengers)
-- cursore?    cursor: url(../images/cursor2.png), auto;
+- add animated background
 
 <div className="background">
         <svg

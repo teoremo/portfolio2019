@@ -118,8 +118,7 @@
 
 @media only screen and (max-width: 500px){
     .shelter__card{  
-    display: grid;
-    width: 80%;
+    margin: 0 auto 40px auto;
     grid-template-columns: auto;
     grid-template-rows: 26px 40px auto auto auto;
     grid-template-areas: 
@@ -128,9 +127,7 @@
     'image'
     'title' 
     'paragraph' ;
-    grid-column-gap: 3vw;
-    margin: 0 auto 40px auto;
-
+ 
 }
 
     .shelter__card p {
