@@ -8,13 +8,25 @@ import SEO from "../components/seo"
 import "./global-styles.css"
 import Cardhomepage from "../components/homepage__card"
 
+import "./sprite_30fps.css"
+
+
+var styles = {
+  
+  backgroundImage: "url(" + "https://github.com/teoremo/portfolio2019/blob/master/src/pages/sprite_30fps.svg" + ")"
+ };
+ 
 const IndexPage = props => (
+  
   <>
     <SEO
       title="Tile of this page"
       keywords={[`gatsby`, `application`, `react`]}
     />
     <Layout>
+    
+    <div class="shapeshifter play" style={styles}> test</div>
+
       <div>
         <svg
           className="frontground-index"
