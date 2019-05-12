@@ -75,7 +75,11 @@ h4 {
   width: 100%;
   max-width: 4000px;
   margin: -200px auto;
+  filter: blur(30px);
+  transform: translateZ(0); /*for older browsers*/
+  will-change: transform;
 }
+
 
 .background-svg {
   position: relative;
