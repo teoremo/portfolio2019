@@ -17,7 +17,7 @@ const Projectintro = props => (
                     <h4 className="project__description__team">{props.team}</h4>
                     </div>
                     <div className="project__hero__logo-container">
-                <img className="project__hero__logo" src={props.logo}></img>
+                <img className="project__hero__logo" src={props.logo} alt=""></img>
                 </div>
             </div>  
             </div>
