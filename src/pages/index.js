@@ -12,7 +12,7 @@ const IndexPage = props => (
   <>
     <SEO
       title="Matteo Remondini | Portfolio"
-      keywords={[`service design`, `design thinking`, `portfolio`, 'design']}
+      keywords={[`service design`, `design thinking`, `portfolio`, "design"]}
     />
     <Layout>
       <div className="background">
@@ -135,23 +135,21 @@ const IndexPage = props => (
           target="_blank"
           rel="noopener noreferrer"
         >
-          <div>
-            <Cardhomepage
-              year="2016"
-              location="London, UK"
-              cardlogo={require("../images/sdt-logo.png")}
-              title="Service Design Today"
-              categories="Research"
-              description={
-                <p>
-                  A snapshot of what Service Design & Design Thinking are.
-                  <br /> Includes interviews with Livework, IDEO, Facebook, and
-                  more.
-                </p>
-              }
-              arrow_type="ext"
-            />
-          </div>
+          <Cardhomepage
+            year="2016"
+            location="London, UK"
+            cardlogo={require("../images/sdt-logo.png")}
+            title="Service Design Today"
+            categories="Research"
+            description={
+              <p>
+                A snapshot of what Service Design & Design Thinking are.
+                <br /> Includes interviews with Livework, IDEO, Facebook, and
+                more.
+              </p>
+            }
+            arrow_type="ext"
+          />
         </a>
 
         <Link to="/flair/">
@@ -205,7 +203,11 @@ const IndexPage = props => (
           fluid={props.data.imageAvatar.childImageSharp.fluid}
         />
 
-        <a download className="download-cv" href={require("../downloads/RemondiniCV_2019.pdf")}>
+        <a
+          download
+          className="download-cv"
+          href={require("../downloads/RemondiniCV_2019.pdf")}
+        >
           <p className="download-cv__text">Download the resume</p>
           <img
             className="download-cv__icon"

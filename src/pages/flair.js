@@ -10,13 +10,14 @@ import Buttonback from "../components/buttonback"
 
 export default props => (
   <>
-    <SEO title="Matteo Remondini | Portfolio | Flair"
-      keywords={[`service design`, `design thinking`, `portfolio`, 'design']}
-      />
+    <SEO
+      title="Matteo Remondini | Portfolio | Flair"
+      keywords={[`service design`, `design thinking`, `portfolio`, "design"]}
+    />
 
     <Layout>
-      <div className="background">
-        <svg
+      <div className="background" >
+        <svg 
           className="background-svg"
           width="2500"
           height="6500"
@@ -222,7 +223,7 @@ export const query = graphql`
   query {
     imageCover: file(relativePath: { eq: "flair-cover.jpg" }) {
       childImageSharp {
-        fluid(maxWidth: 1100) {
+        fluid {
           ...GatsbyImageSharpFluid
         }
       }

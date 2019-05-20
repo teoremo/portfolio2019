@@ -19,8 +19,8 @@ const Layout = ({ children }) => (
           <div className="layout">
           <main>{children}</main>
           <footer class="footer">
-            <a class="footer__email" href=" ">Email</a>
-            <a class="footer__linkedin" href=" ">LinkedIn</a>
+          <a class="footer__email" href="mailto:hello@teoremo.com">Email</a>
+          <a class="footer__linkedin" href="http://www.linkedin.com/in/teoremo" target="_blank" rel="noopener noreferrer">LinkedIn</a>
             <br/>
             <i class="footer__love-text">Made with love, from scratch</i>
           </footer>
