@@ -11,9 +11,16 @@ import Cardshelter from "../components/shelter__card"
 
 export default props => (
   <>
-    <SEO title="Matteo Remondini | Portfolio | Shelter"
-      keywords={[`service design`, `design thinking`, `portfolio`, 'design', 'shelter']}
-      />
+    <SEO
+      title="Matteo Remondini | Portfolio | Shelter"
+      keywords={[
+        `service design`,
+        `design thinking`,
+        `portfolio`,
+        "design",
+        "shelter",
+      ]}
+    />
     <Layout>
       <div className="background">
         <svg
@@ -158,38 +165,49 @@ M 1894.05 4145.42 L 1904 4146.5 L 1904 4146.5 L 1894.05 4145.42 M 967.669 6277.5
             <strong>Some of the successful results we achieved include:</strong>
           </p>
         </div>
-        <a href="https://blog.shelter.org.uk/2018/06/streamlining-advice-journeys/" target="_blank" rel="noopener noreferrer">
-        <Cardshelter
-          cardimage={require("../images/shelter-3.png")}
-          year="2017"
-          location="London, UK"
-          title="Streamlining advice journeys"
-          description="A unified point of access made it easier for people to contact Shelter and allowed us to run experiments aimed at decreasing pressure of our helpline. "
-          arrow={require("../images/arrow-down.svg")}
-        />
+        <a
+          href="https://blog.shelter.org.uk/2018/06/streamlining-advice-journeys/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Cardshelter
+            cardimage={require("../images/shelter-3.png")}
+            year="2017"
+            location="London, UK"
+            title="Streamlining advice journeys"
+            description="A unified point of access made it easier for people to contact Shelter and allowed us to run experiments aimed at decreasing pressure of our helpline. "
+            arrow={require("../images/arrow-down.svg")}
+          />
         </a>
 
-        <a href="https://blog.shelter.org.uk/2018/09/how-we-improved-our-helpline-to-reach-more-people-in-urgent-need/" target="_blank" rel="noopener noreferrer">
-        <Cardshelter
-          cardimage={require("../images/shelter-4.png")}
-          year="2018"
-          location="London, UK"
-          title="Improving our helpline to reach more people in urgent need"
-          description="How we improved Shelter’s helpline to reach thousands more people in urgent need of housing & homelessness expertise."
-          arrow={require("../images/arrow-down.svg")}
-        />
-
+        <a
+          href="https://blog.shelter.org.uk/2018/09/how-we-improved-our-helpline-to-reach-more-people-in-urgent-need/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Cardshelter
+            cardimage={require("../images/shelter-4.png")}
+            year="2018"
+            location="London, UK"
+            title="Improving our helpline to reach more people in urgent need"
+            description="How we improved Shelter’s helpline to reach thousands more people in urgent need of housing & homelessness expertise."
+            arrow={require("../images/arrow-down.svg")}
+          />
         </a>
 
-        <a href="https://blog.shelter.org.uk/2019/03/reshaping-our-local-advice-services-offering/" target="_blank" rel="noopener noreferrer">
-        <Cardshelter
-          cardimage={require("../images/shelter-5.png")}
-          year="2018"
-          location="London, UK"
-          title="Reshaping our Local Advice Services offering"
-          description="How we implemented a new way of looking for face-to-face Shelter advice in a local area and simplified things for our staff."
-          arrow={require("../images/arrow-down.svg")}
-        />
+        <a
+          href="https://blog.shelter.org.uk/2019/03/reshaping-our-local-advice-services-offering/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Cardshelter
+            cardimage={require("../images/shelter-5.png")}
+            year="2018"
+            location="London, UK"
+            title="Reshaping our Local Advice Services offering"
+            description="How we implemented a new way of looking for face-to-face Shelter advice in a local area and simplified things for our staff."
+            arrow={require("../images/arrow-down.svg")}
+          />
         </a>
 
         <div className="project__article__wrapper">

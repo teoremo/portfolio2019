@@ -10,11 +10,18 @@ import Commsprj from "../components/comms__prj"
 
 export default props => (
   <>
-    <SEO title="Matteo Remondini | Portfolio | Communication Design"
-      keywords={[`service design`, `design thinking`, `portfolio`, 'design', 'communication design']}
-      />
+    <SEO
+      title="Matteo Remondini | Portfolio | Communication Design"
+      keywords={[
+        `service design`,
+        `design thinking`,
+        `portfolio`,
+        "design",
+        "communication design",
+      ]}
+    />
     <Layout>
-    <div className="background">
+      <div className="background">
         <svg
           className="background-svg"
           width="2000"
@@ -41,18 +48,27 @@ export default props => (
             />
           </path>
           <defs>
-          <linearGradient id="paint0_linear" x1="947.292" y1="281.717" x2="1581.64" y2="6858.04" gradientUnits="userSpaceOnUse">
-    <stop stop-color="#FF6969"/>
-    <stop offset="0.453039" stop-color="#C0C23D"/>
-    <stop offset="0.723757" stop-color="#17C792"/>
-    <stop offset="1" stop-color="#2E00E5"/>
-    </linearGradient>
+            <linearGradient
+              id="paint0_linear"
+              x1="947.292"
+              y1="281.717"
+              x2="1581.64"
+              y2="6858.04"
+              gradientUnits="userSpaceOnUse"
+            >
+              <stop stop-color="#FF6969" />
+              <stop offset="0.453039" stop-color="#C0C23D" />
+              <stop offset="0.723757" stop-color="#17C792" />
+              <stop offset="1" stop-color="#2E00E5" />
+            </linearGradient>
           </defs>
         </svg>
       </div>
-           
-      <Img className="project__hero__img" fluid={props.data.imageCover.childImageSharp.fluid}
-           />
+
+      <Img
+        className="project__hero__img"
+        fluid={props.data.imageCover.childImageSharp.fluid}
+      />
 
       <div className="project__description-page">
         <div className="project__description__wrapper">

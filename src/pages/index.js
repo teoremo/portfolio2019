@@ -15,7 +15,7 @@ const IndexPage = props => (
       keywords={[`service design`, `design thinking`, `portfolio`, "design"]}
     />
     <Layout>
-      <div className="background">
+      <div className="background hide-responsive">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           className="background-svg"
@@ -100,7 +100,7 @@ const IndexPage = props => (
           </h1>
           <div className="homepage__hero__p">
             <p>
-              Passionate about complex problems, interested in human behaviour
+              Passionate about complex problems, interested in human behaviour,
               and intrigued by anything that is about change for the better.
             </p>
           </div>

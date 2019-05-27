@@ -16,8 +16,8 @@ export default props => (
     />
 
     <Layout>
-      <div className="background" >
-        <svg 
+      <div className="background">
+        <svg
           className="background-svg"
           width="2500"
           height="6500"

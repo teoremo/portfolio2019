@@ -7,9 +7,13 @@ const ARROW_EXT = require("../images/arrow-ext-link.svg")
 class Cardhomepage extends React.Component {
   getArrow() {
     if (this.props.arrow_type === "ext") {
-      return <img className="homepage__card__arrow_ext" src={ARROW_EXT} alt=""/>
+      return (
+        <img className="homepage__card__arrow_ext" src={ARROW_EXT} alt="" />
+      )
     } else {
-      return <img className="homepage__card__arrow_right" src={ARROW_RIGHT} alt=""/>
+      return (
+        <img className="homepage__card__arrow_right" src={ARROW_RIGHT} alt="" />
+      )
     }
   }
   render() {
@@ -17,7 +21,11 @@ class Cardhomepage extends React.Component {
       <div className="homepage__card">
         <h4 className="homepage__card__year">{this.props.year}</h4>
         <h4 className="homepage__card__location">{this.props.location}</h4>
-        <img className="homepage__card__logo" src={this.props.cardlogo} alt=""/>
+        <img
+          className="homepage__card__logo"
+          src={this.props.cardlogo}
+          alt=""
+        />
         <h2>{this.props.title}</h2>
         <h3>{this.props.categories}</h3>
         <p>{this.props.description}</p>

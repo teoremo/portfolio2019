@@ -10,11 +10,19 @@ import Buttonback from "../components/buttonback"
 
 export default props => (
   <>
-    <SEO title="Matteo Remondini | Portfolio | Gimble"
-      keywords={[`service design`, `design thinking`, `portfolio`, 'design', 'product-service system', 'politecnico di Milano']}
-      />
+    <SEO
+      title="Matteo Remondini | Portfolio | Gimble"
+      keywords={[
+        `service design`,
+        `design thinking`,
+        `portfolio`,
+        "design",
+        "product-service system",
+        "politecnico di Milano",
+      ]}
+    />
     <Layout>
-    <div className="background">
+      <div className="background">
         <svg
           className="background-svg"
           width="2000"
@@ -41,10 +49,17 @@ export default props => (
             />
           </path>
           <defs>
-          <linearGradient id="paint0_linear" x1="234.655" y1="14684" x2="2998.17" y2="1677.68" gradientUnits="userSpaceOnUse">
-    <stop offset="0.456353" stop-color="#C0C23D"/>
-    <stop offset="0.970166" stop-color="#17C792"/>
-    </linearGradient>
+            <linearGradient
+              id="paint0_linear"
+              x1="234.655"
+              y1="14684"
+              x2="2998.17"
+              y2="1677.68"
+              gradientUnits="userSpaceOnUse"
+            >
+              <stop offset="0.456353" stop-color="#C0C23D" />
+              <stop offset="0.970166" stop-color="#17C792" />
+            </linearGradient>
           </defs>
         </svg>
       </div>
@@ -85,7 +100,6 @@ export default props => (
 
       <div className="project__article__page">
         <div className="project__article__wrapper">
-
           <h2 className="project__article__h2">What's Gimble</h2>
           <p className="project__article__p">
             We were tasked with finding an unmet need in the sports industry and
