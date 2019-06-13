@@ -223,7 +223,7 @@ export const query = graphql`
   query {
     imageCover: file(relativePath: { eq: "comm-cover.jpg" }) {
       childImageSharp {
-        fluid {
+        fluid(maxWidth:1360) {
           ...GatsbyImageSharpFluid
         }
       }

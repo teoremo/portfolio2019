@@ -223,28 +223,28 @@ export const query = graphql`
   query {
     imageCover: file(relativePath: { eq: "flair-cover.jpg" }) {
       childImageSharp {
-        fluid {
+        fluid(maxWidth:1360) {
           ...GatsbyImageSharpFluid
         }
       }
     }
     imageOne: file(relativePath: { eq: "flair-1.png" }) {
       childImageSharp {
-        fluid {
+        fluid(maxWidth:1360) {
           ...GatsbyImageSharpFluid
         }
       }
     }
     imageTwo: file(relativePath: { eq: "flair-2.jpg" }) {
       childImageSharp {
-        fluid {
+        fluid(maxWidth:1360) {
           ...GatsbyImageSharpFluid
         }
       }
     }
     imageThree: file(relativePath: { eq: "flair-3.png" }) {
       childImageSharp {
-        fluid {
+        fluid(maxWidth:1360) {
           ...GatsbyImageSharpFluid
         }
       }

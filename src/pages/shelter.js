@@ -133,12 +133,13 @@ M 1894.05 4145.42 L 1904 4146.5 L 1904 4146.5 L 1894.05 4145.42 M 967.669 6277.5
         fluid={props.data.imageTwo.childImageSharp.fluid}
       />
 
+  
       <Img
         className="image-l show-responsive"
         fluid={props.data.imageTwoM.childImageSharp.fluid}
       />
-
-      <div className="project__article__page">
+      
+            <div className="project__article__page">
         <div className="project__article__wrapper">
           <p className="project__article__p">
             As I started to implement digital products I saw there was a clear
@@ -237,21 +238,21 @@ export const query = graphql`
   query {
     imageCover: file(relativePath: { eq: "shelter-cover.jpg" }) {
       childImageSharp {
-        fluid {
+        fluid(maxWidth:1360) {
           ...GatsbyImageSharpFluid
         }
       }
     }
     imageOne: file(relativePath: { eq: "shelter-1.jpg" }) {
       childImageSharp {
-        fluid {
+        fluid(maxWidth:900) {
           ...GatsbyImageSharpFluid
         }
       }
     }
     imageTwo: file(relativePath: { eq: "shelter-2.jpg" }) {
       childImageSharp {
-        fluid {
+        fluid(maxWidth:1360) {
           ...GatsbyImageSharpFluid
         }
       }

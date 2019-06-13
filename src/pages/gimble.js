@@ -508,21 +508,21 @@ export const query = graphql`
   query {
     imageCover: file(relativePath: { eq: "gimble-cover.jpg" }) {
       childImageSharp {
-        fluid {
+        fluid(maxWidth:1360) {
           ...GatsbyImageSharpFluid
         }
       }
     }
     imageOne: file(relativePath: { eq: "gimble-1.png" }) {
       childImageSharp {
-        fluid {
+        fluid(maxWidth:1360) {
           ...GatsbyImageSharpFluid
         }
       }
     }
     imageTwo: file(relativePath: { eq: "gimble-2.png" }) {
       childImageSharp {
-        fluid {
+        fluid(maxWidth:1360) {
           ...GatsbyImageSharpFluid
         }
       }
@@ -536,7 +536,7 @@ export const query = graphql`
     }
     imageFour: file(relativePath: { eq: "gimble-4.png" }) {
       childImageSharp {
-        fluid {
+        fluid(maxWidth:900) {
           ...GatsbyImageSharpFluid
         }
       }
@@ -550,7 +550,7 @@ export const query = graphql`
     }
     imageSix: file(relativePath: { eq: "gimble-6.png" }) {
       childImageSharp {
-        fluid {
+        fluid(maxWidth:900) {
           ...GatsbyImageSharpFluid
         }
       }
@@ -564,14 +564,14 @@ export const query = graphql`
     }
     imageEight: file(relativePath: { eq: "gimble-8.png" }) {
       childImageSharp {
-        fluid {
+        fluid(maxWidth:900) {
           ...GatsbyImageSharpFluid
         }
       }
     }
     imageNine: file(relativePath: { eq: "gimble-9.png" }) {
       childImageSharp {
-        fluid {
+        fluid(maxWidth:900) {
           ...GatsbyImageSharpFluid
         }
       }
