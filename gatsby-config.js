@@ -23,9 +23,9 @@ module.exports = {
         srcSetBreakpoints: [ 200, 500, 1200, 1400, 1600 ],
       },
     },
-    'gatsby-plugin-google-analytics',
+    'gatsby-plugin-gtag',
     {
-    resolve: `gatsby-plugin-google-analytics`,
+      resolve: `gatsby-plugin-gtag`,
       options: {
         trackingId: "UA-69169005-2",
       },
@@ -39,7 +39,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        //icon: `../images/favicon.ico`, // This path is relative to the root of the site.
+        icon: `src/images/favicon.png`,
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
