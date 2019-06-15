@@ -20,7 +20,6 @@ module.exports = {
         stripMetadata: true,
         pngCompressionSpeed: 1,
         defaultQuality: 100,
-        srcSetBreakpoints: [ 200, 500, 1200, 1400, 1600 ],
       },
     },
     'gatsby-plugin-gtag',
