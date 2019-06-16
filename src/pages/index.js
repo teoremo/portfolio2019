@@ -11,7 +11,7 @@ import Cardhomepage from "../components/homepage__card"
 const IndexPage = props => (
   <>
     <SEO
-      title="Matteo Remondini | Portfolio"
+      title="Welcome"
       keywords={[`service design`, `design thinking`, `portfolio`, "design"]}
     />
     <Layout>

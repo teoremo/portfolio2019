@@ -12,7 +12,7 @@ import Cardshelter from "../components/shelter__card"
 export default props => (
   <>
     <SEO
-      title="Matteo Remondini | Portfolio | Shelter"
+      title="Shelter"
       keywords={[
         `service design`,
         `design thinking`,

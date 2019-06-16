@@ -11,7 +11,7 @@ import Buttonback from "../components/buttonback"
 export default props => (
   <>
     <SEO
-      title="Matteo Remondini | Portfolio | Gimble"
+      title="Gimble"
       keywords={[
         `service design`,
         `design thinking`,

@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Matteo's portfolio`,
+    title: `Matteo Remondini's Portfolio`,
     description: `Matteo Remondini's porfolio. And much love`,
     author: `Matteo Remondini`,
   },
@@ -32,13 +32,14 @@ module.exports = {
    {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Matteo Remondini's Portfolio`,
+        short_name: `Matteo's Portfolio`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/favicon.png`,
+        icon: `src/images/icon.png`,
+        legacy: false,
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality

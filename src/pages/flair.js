@@ -11,7 +11,7 @@ import Buttonback from "../components/buttonback"
 export default props => (
   <>
     <SEO
-      title="Matteo Remondini | Portfolio | Flair"
+      title="Flair"
       keywords={[`service design`, `design thinking`, `portfolio`, "design"]}
     />
 
@@ -223,28 +223,28 @@ export const query = graphql`
   query {
     imageCover: file(relativePath: { eq: "flair-cover.jpg" }) {
       childImageSharp {
-        fluid(maxWidth:1360) {
+        fluid(maxWidth: 1360) {
           ...GatsbyImageSharpFluid
         }
       }
     }
     imageOne: file(relativePath: { eq: "flair-1.png" }) {
       childImageSharp {
-        fluid(maxWidth:1360) {
+        fluid(maxWidth: 1360) {
           ...GatsbyImageSharpFluid
         }
       }
     }
     imageTwo: file(relativePath: { eq: "flair-2.jpg" }) {
       childImageSharp {
-        fluid(maxWidth:1360) {
+        fluid(maxWidth: 1360) {
           ...GatsbyImageSharpFluid
         }
       }
     }
     imageThree: file(relativePath: { eq: "flair-3.png" }) {
       childImageSharp {
-        fluid(maxWidth:1360) {
+        fluid(maxWidth: 1360) {
           ...GatsbyImageSharpFluid
         }
       }

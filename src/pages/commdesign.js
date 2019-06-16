@@ -11,7 +11,7 @@ import Commsprj from "../components/comms__prj"
 export default props => (
   <>
     <SEO
-      title="Matteo Remondini | Portfolio | Communication Design"
+      title="Communication Design"
       keywords={[
         `service design`,
         `design thinking`,
