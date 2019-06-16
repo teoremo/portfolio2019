@@ -22,7 +22,14 @@ module.exports = {
         defaultQuality: 100,
       },
     },
-    'gatsby-plugin-gtag',
+    `gatsby-plugin-favicon`,
+    {
+      resolve: `gatsby-plugin-favicon`,
+      options: {
+        logo: "./src/favicon.png",
+           },
+      },
+      'gatsby-plugin-gtag',
     {
       resolve: `gatsby-plugin-gtag`,
       options: {
@@ -38,9 +45,10 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/icon.png`,
-        legacy: false,
+        //icon: `src/images/icon.png`,
+
       },
+      
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
