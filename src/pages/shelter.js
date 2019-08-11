@@ -22,6 +22,8 @@ export default props => (
       ]}
     />
     <Layout>
+      <div className="test">
+        <div>
       <div className="background">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -62,6 +64,7 @@ M 1894.05 4145.42 L 1904 4146.5 L 1904 4146.5 L 1894.05 4145.42 M 967.669 6277.5
           </defs>
         </svg>
       </div>
+      </div></div>
 
       <Img
         className="project__hero__img"

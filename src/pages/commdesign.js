@@ -84,9 +84,10 @@ export default props => (
       </div>
 
       <div className="harika__grid">
-        <Img
+        <img
           className="harika__grid__image-1"
-          fluid={props.data.imageOne.childImageSharp.fluid}
+          src={require("../images/harika-1.gif")}
+            alt="harika landing page animation"
         />
         <Img
           className="harika__grid__image-2"
