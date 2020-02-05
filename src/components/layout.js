@@ -19,8 +19,13 @@ const Layout = ({ children }) => (
         <div className="layout">
           <main>{children}</main>
           <footer class="footer">
-            <a className="footer__email" href="mailto:hello@teoremo.com">
-              Email
+          <a
+              className="footer__twitter"
+              href="http://www.twitter.com/teoremo"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Twitter
             </a>
             <a
               className="footer__linkedin"
@@ -29,6 +34,9 @@ const Layout = ({ children }) => (
               rel="noopener noreferrer"
             >
               LinkedIn
+            </a>
+            <a className="footer__email" href="mailto:hello@teoremo.com">
+              Email
             </a>
             <br />
             <i className="footer__love-text">Made with love, from scratch</i>

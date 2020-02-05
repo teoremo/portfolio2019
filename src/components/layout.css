@@ -9,26 +9,39 @@
   width: 85vw;
   max-width: 1134px;
   text-align: right;
-  margin: 100px auto 0 auto;
-  grid-template-columns: auto 120px 120px;
+  margin: 100px auto 60px auto;
+  grid-template-columns: auto 120px 100px 100px;
   grid-template-rows: 60px 60px;
 }
 
-.footer__email {
-  grid-column: 2/3;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.footer__linkedin {
-  grid-column: 3/4;
+.footer__twitter {
+  grid-column: 1/1;
+  grid-row: 1/1;
   text-decoration: none;
   text-shadow: none;
   font-weight: bold;
 }
 
+.footer__linkedin {
+  grid-column: 2/3;
+  grid-row: 1/1;
+  text-decoration: none;
+  text-shadow: none;
+  font-weight: bold;
+}
+
+.footer__email {
+  grid-column: 3/3;
+  grid-row: 1/1;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+
 .footer__email:hover,
-.footer__linkedin:hover {
+.footer__linkedin:hover,
+.footer__twitter:hover {
   text-decoration: underline;
 }
 
@@ -37,24 +50,31 @@
   grid-row: 2/3;
 }
 
+
 @media only screen and (max-width: 500px) {
   .footer {
     text-align: center;
     grid-template-columns: auto;
-    grid-template-rows: 60px 100px 60px;
+    grid-template-rows: 60px 60px 100px 60px;
     margin: 80px auto 0 auto;
   }
 
+  .footer__twitter {
+    grid-column: 1/4;
+    grid-row: 1/3;
+  }
   .footer__linkedin {
     grid-column: 1/4;
     grid-row: 2/3;
   }
 
+
   .footer__email {
     grid-column: 1/4;
+    grid-row: 3/3;
   }
 
   .footer__love-text {
-    grid-row: 3/4;
+    grid-row: 4/4;
   }
 }
