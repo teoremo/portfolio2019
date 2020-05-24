@@ -195,7 +195,7 @@ const IndexPage = props => (
         <a
           download
           className="download-cv"
-          href={require("../downloads/RemondiniCV_2019.pdf")}
+          href={require("../downloads/RemondiniCV_2020.pdf")}
         >
           <p className="download-cv__text">Download the resume</p>
           <img
