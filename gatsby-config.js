@@ -3,6 +3,7 @@ module.exports = {
     title: `Matteo Remondini's Portfolio`,
     description: `Matteo Remondini's porfolio. And much love`,
     author: `Matteo Remondini`,
+    twitterUsername: "@teoremo",
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

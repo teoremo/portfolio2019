@@ -110,7 +110,7 @@ const IndexPage = props => (
       <div className="homepage__page">
         <Link to="/shelter/">
           <Cardhomepage
-            year="2017 : 2019"
+            year="2017 : 2020"
             location="London, UK"
             cardlogo={require("../images/shelterlogo.png")}
             title="Shelter"

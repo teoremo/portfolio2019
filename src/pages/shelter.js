@@ -80,7 +80,7 @@ export default props => (
             element of Services&rsquo; division long term strategy.
           </p>
         }
-        yearlocation="2017 : 2019 - London, Uk"
+        yearlocation="2017 : 2020 - London, Uk"
         category="Service Design, Strategic Design, UX Design"
         team="Service Designer, Product Owner, Lead UX Designer, Developer"
         logo={require("../images/shelterlogo.png")}
@@ -111,7 +111,7 @@ export default props => (
             That&rsquo;s when I started mapping things. <br />
             <br />
             By developing a system map at Shelter, I was able to &lsquo;connect
-            the dots&rsquo; and find areas for improvement accross different
+            the dots&rsquo; and find areas for improvement across different
             areas of the organisation.
             <br />
             Designing a user journey map helped to visualise what an ideal
