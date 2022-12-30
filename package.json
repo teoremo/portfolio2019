@@ -4,7 +4,7 @@
   "description": "Matteo Remondini's porfolio. And much love",
   "author": "Matteo Remondini",
   "dependencies": {
-    "gatsby": "^2.20.35",
+    "gatsby": "^2.32.13",
     "gatsby-image": "^2.3.5",
     "gatsby-plugin-favicon": "^3.1.6",
     "gatsby-plugin-gtag": "^1.0.13",
